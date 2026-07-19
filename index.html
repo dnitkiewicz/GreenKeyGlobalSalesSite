@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Key Global | Eco-Rating Overview</title>
+    <meta
+      name="description"
+      content="A static summary of Green Key Global, the Eco-Rating certification journey, and the value of sustainable hospitality standards."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #07111f;
+        --surface: #0f2238;
+        --surface-2: #143a54;
+        --text: #f5f7fb;
+        --muted: #b9c8da;
+        --accent: #4fd1c5;
+        --accent-2: #79b6ff;
+        --border: rgba(255, 255, 255, 0.14);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        background: linear-gradient(135deg, var(--bg) 0%, #0f2c3d 100%);
+        color: var(--text);
+        line-height: 1.7;
+      }
+      a { color: inherit; }
+      .hero {
+        padding: 4rem 1.25rem 3rem;
+        background: radial-gradient(circle at top left, rgba(79, 209, 197, 0.2), transparent 28%),
+                    radial-gradient(circle at 85% 10%, rgba(121, 182, 255, 0.25), transparent 24%);
+      }
+      .container {
+        max-width: 1120px;
+        margin: 0 auto;
+      }
+      .hero-card {
+        background: rgba(15, 34, 56, 0.88);
+        backdrop-filter: blur(14px);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 2rem;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+      }
+      .eyebrow {
+        text-transform: uppercase;
+        letter-spacing: 0.24em;
+        font-size: 0.79rem;
+        color: var(--accent);
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+      }
+      h1, h2, h3 { line-height: 1.2; }
+      h1 { font-size: clamp(2rem, 4vw, 3rem); margin: 0 0 1rem; }
+      .hero p { color: var(--muted); font-size: 1.05rem; max-width: 780px; }
+      .btn-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.4rem; }
+      .btn {
+        display: inline-block;
+        padding: 0.8rem 1.1rem;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: transform 0.2s ease, background 0.2s ease;
+      }
+      .btn:hover { transform: translateY(-2px); }
+      .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #052132; }
+      .btn-secondary { background: rgba(255,255,255,0.08); border: 1px solid var(--border); }
+      .grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 2rem; }
+      .card {
+        background: rgba(255,255,255,0.04);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 1.2rem 1.25rem;
+      }
+      .card h3 { margin-top: 0; margin-bottom: 0.6rem; font-size: 1.1rem; }
+      .card p, .card li { color: var(--muted); }
+      ul { padding-left: 1.1rem; }
+      .timeline { display: grid; gap: 1rem; margin-top: 1rem; }
+      .step {
+        background: rgba(255,255,255,0.05);
+        padding: 1rem 1.1rem;
+        border-left: 4px solid var(--accent);
+        border-radius: 14px;
+      }
+      .section { padding: 1.4rem 1.25rem 3rem; }
+      .section h2 { font-size: 1.5rem; margin-bottom: 0.7rem; }
+      .section p { color: var(--muted); }
+      .pill { display: inline-block; margin: 0.2rem 0.35rem 0.2rem 0; padding: 0.28rem 0.62rem; font-size: 0.82rem; background: rgba(79, 209, 197, 0.12); color: var(--accent); border-radius: 999px; }
+      .source-list { display: grid; gap: 0.8rem; margin-top: 1rem; }
+      .source-item { padding: 0.9rem 1rem; background: rgba(255,255,255,0.045); border: 1px solid var(--border); border-radius: 12px; }
+      .footer { padding: 0 1.25rem 2.2rem; color: var(--muted); text-align: center; font-size: 0.95rem; }
+      @media (max-width: 760px) {
+        .grid { grid-template-columns: 1fr; }
+        .hero-card { padding: 1.4rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container hero-card">
+        <div class="eyebrow">Green Key Global</div>
+        <h1>From hospitality sustainability to measurable eco-rating progress</h1>
+        <p>
+          This page summarizes how Green Key Global helps hotels and resorts strengthen their sustainability performance,
+          align with internationally recognized standards, and move through a practical certification roadmap.
+        </p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#roadmap">Explore the roadmap</a>
+          <a class="btn btn-secondary" href="#sources">View source materials</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="grid">
+        <article class="card">
+          <h3>What Green Key Global does</h3>
+          <p>
+            Green Key Global supports hospitality organizations in improving environmental stewardship, guest experience,
+            and operational excellence through a structured certification framework.
+          </p>
+          <ul>
+            <li>Builds credibility with sustainability-focused travelers</li>
+            <li>Offers a practical path from assessment to certification</li>
+            <li>Encourages measurable environmental and social impact</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Why the Eco-Rating matters</h3>
+          <p>
+            The Eco-Rating journey helps organizations show progress with a clear, evidence-based path that can be shared
+            internally, with stakeholders, and with guests.
+          </p>
+          <ul>
+            <li>Creates transparency around sustainability priorities</li>
+            <li>Supports continuous improvement across departments</li>
+            <li>Aligns teams around a common framework and language</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section" id="roadmap">
+        <h2>Roadmap to Eco-Rating certification</h2>
+        <p>
+          The certification journey is most effective when it is framed as a phased roadmap: understand the criteria,
+          assess current performance, close gaps, and demonstrate improvement over time.
+        </p>
+        <div class="timeline">
+          <div class="step">
+            <strong>1. Learn the standards</strong><br />
+            Review the core criteria, checklist, and supporting documentation to understand the expectations and scoring logic.
+          </div>
+          <div class="step">
+            <strong>2. Evaluate current operations</strong><br />
+            Use the questions and evaluation tools to identify where the property already excels and where improvements are needed.
+          </div>
+          <div class="step">
+            <strong>3. Build a practical action plan</strong><br />
+            Prioritize initiatives that improve efficiency, reduce environmental impact, and strengthen engagement.
+          </div>
+          <div class="step">
+            <strong>4. Demonstrate progress</strong><br />
+            Collect evidence, document outcomes, and prepare for the certification review with confidence.
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Core themes reflected in the source materials</h2>
+        <div>
+          <span class="pill">Sustainability strategy</span>
+          <span class="pill">Operational excellence</span>
+          <span class="pill">Guest engagement</span>
+          <span class="pill">Certification readiness</span>
+          <span class="pill">Market differentiation</span>
+          <span class="pill">Continuous improvement</span>
+        </div>
+      </section>
+
+      <section class="section" id="sources">
+        <h2>Source materials included</h2>
+        <p>The site is designed to be a lightweight summary that can be shared alongside the original documents.</p>
+        <div class="source-list">
+          <div class="source-item"><strong>Roadmap document:</strong> <a href="Source%20Files/A_Hotels_Roadmap_to_Eco-Rating_Certification.docx" target="_blank" rel="noreferrer">A_Hotels_Roadmap_to_Eco-Rating_Certification.docx</a></div>
+          <div class="source-item"><strong>Core criteria overview:</strong> <a href="Source%20Files/00.Core-Criteria-One-Pager-FINAL.pdf" target="_blank" rel="noreferrer">00.Core-Criteria-One-Pager-FINAL.pdf</a></div>
+          <div class="source-item"><strong>Checklist and questions:</strong> <a href="Source%20Files/01.Core-Criteria-Checklist.pdf" target="_blank" rel="noreferrer">01.Core-Criteria-Checklist.pdf</a> and <a href="Source%20Files/02.Core-Criteria-Questions.pdf" target="_blank" rel="noreferrer">02.Core-Criteria-Questions.pdf</a></div>
+          <div class="source-item"><strong>Presentation and marketing assets:</strong> available in the <a href="Source%20Files/" target="_blank" rel="noreferrer">Source Files</a> folder for deeper reference</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Static site ready for GitHub Pages deployment from the workspace root.
+    </footer>
+  </body>
+</html>
