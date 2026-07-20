@@ -3,203 +3,171 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Green Key Global | Eco-Rating Overview</title>
-    <meta
-      name="description"
-      content="A static summary of Green Key Global, the Eco-Rating certification journey, and the value of sustainable hospitality standards."
-    />
+    <title>Green Key Global | A Hotel's Roadmap to Eco-Rating Certification</title>
+    <meta name="description" content="A marketing and education site for Green Key Global that explains why Eco-Rating certification matters, how the program works, and how hotels can get started." />
+    <meta property="og:title" content="Green Key Global | A Hotel's Roadmap to Eco-Rating Certification" />
+    <meta property="og:description" content="The business case for certification, pricing and ROI, partner options, and a practical 90-day roadmap." />
+    <meta property="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      :root {
-        --bg: #07111f;
-        --surface: #0f2238;
-        --surface-2: #143a54;
-        --text: #f5f7fb;
-        --muted: #b9c8da;
-        --accent: #4fd1c5;
-        --accent-2: #79b6ff;
-        --border: rgba(255, 255, 255, 0.14);
-      }
-      * { box-sizing: border-box; }
-      body {
-        margin: 0;
-        font-family: 'Inter', sans-serif;
-        background: linear-gradient(135deg, var(--bg) 0%, #0f2c3d 100%);
-        color: var(--text);
-        line-height: 1.7;
-      }
-      a { color: inherit; }
-      .hero {
-        padding: 4rem 1.25rem 3rem;
-        background: radial-gradient(circle at top left, rgba(79, 209, 197, 0.2), transparent 28%),
-                    radial-gradient(circle at 85% 10%, rgba(121, 182, 255, 0.25), transparent 24%);
-      }
-      .container {
-        max-width: 1120px;
-        margin: 0 auto;
-      }
-      .hero-card {
-        background: rgba(15, 34, 56, 0.88);
-        backdrop-filter: blur(14px);
-        border: 1px solid var(--border);
-        border-radius: 24px;
-        padding: 2rem;
-        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
-      }
-      .eyebrow {
-        text-transform: uppercase;
-        letter-spacing: 0.24em;
-        font-size: 0.79rem;
-        color: var(--accent);
-        font-weight: 700;
-        margin-bottom: 0.75rem;
-      }
-      h1, h2, h3 { line-height: 1.2; }
-      h1 { font-size: clamp(2rem, 4vw, 3rem); margin: 0 0 1rem; }
-      .hero p { color: var(--muted); font-size: 1.05rem; max-width: 780px; }
-      .btn-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.4rem; }
-      .btn {
-        display: inline-block;
-        padding: 0.8rem 1.1rem;
-        border-radius: 999px;
-        text-decoration: none;
-        font-weight: 700;
-        transition: transform 0.2s ease, background 0.2s ease;
-      }
-      .btn:hover { transform: translateY(-2px); }
-      .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #052132; }
-      .btn-secondary { background: rgba(255,255,255,0.08); border: 1px solid var(--border); }
-      .grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 2rem; }
-      .card {
-        background: rgba(255,255,255,0.04);
-        border: 1px solid var(--border);
-        border-radius: 20px;
-        padding: 1.2rem 1.25rem;
-      }
-      .card h3 { margin-top: 0; margin-bottom: 0.6rem; font-size: 1.1rem; }
-      .card p, .card li { color: var(--muted); }
-      ul { padding-left: 1.1rem; }
-      .timeline { display: grid; gap: 1rem; margin-top: 1rem; }
-      .step {
-        background: rgba(255,255,255,0.05);
-        padding: 1rem 1.1rem;
-        border-left: 4px solid var(--accent);
-        border-radius: 14px;
-      }
-      .section { padding: 1.4rem 1.25rem 3rem; }
-      .section h2 { font-size: 1.5rem; margin-bottom: 0.7rem; }
-      .section p { color: var(--muted); }
-      .pill { display: inline-block; margin: 0.2rem 0.35rem 0.2rem 0; padding: 0.28rem 0.62rem; font-size: 0.82rem; background: rgba(79, 209, 197, 0.12); color: var(--accent); border-radius: 999px; }
-      .source-list { display: grid; gap: 0.8rem; margin-top: 1rem; }
-      .source-item { padding: 0.9rem 1rem; background: rgba(255,255,255,0.045); border: 1px solid var(--border); border-radius: 12px; }
-      .footer { padding: 0 1.25rem 2.2rem; color: var(--muted); text-align: center; font-size: 0.95rem; }
-      @media (max-width: 760px) {
-        .grid { grid-template-columns: 1fr; }
-        .hero-card { padding: 1.4rem; }
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <div class="container hero-card">
-        <div class="eyebrow">Green Key Global</div>
-        <h1>From hospitality sustainability to measurable eco-rating progress</h1>
-        <p>
-          This page summarizes how Green Key Global helps hotels and resorts strengthen their sustainability performance,
-          align with internationally recognized standards, and move through a practical certification roadmap.
-        </p>
-        <div class="btn-row">
-          <a class="btn btn-primary" href="#roadmap">Explore the roadmap</a>
-          <a class="btn btn-secondary" href="#sources">View source materials</a>
-        </div>
+    <header class="site-header">
+      <div class="container nav-row">
+        <a href="index.html" class="brand">GREEN KEY GLOBAL</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
+        <nav class="nav-links">
+          <a href="why-certify.html">Why Certify</a>
+          <a href="how-it-works.html">How It Works</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="partners.html">Partners</a>
+          <a href="get-started.html">Get Started</a>
+          <a href="faq.html">FAQ</a>
+          <a href="about.html">About</a>
+          <a class="nav-cta" href="mailto:info@greenkeyglobal.com">Start the Conversation</a>
+        </nav>
       </div>
     </header>
 
-    <main class="container">
-      <section class="grid">
-        <article class="card">
-          <h3>What Green Key Global does</h3>
-          <p>
-            Green Key Global supports hospitality organizations in improving environmental stewardship, guest experience,
-            and operational excellence through a structured certification framework.
-          </p>
-          <ul>
-            <li>Builds credibility with sustainability-focused travelers</li>
-            <li>Offers a practical path from assessment to certification</li>
-            <li>Encourages measurable environmental and social impact</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Why the Eco-Rating matters</h3>
-          <p>
-            The Eco-Rating journey helps organizations show progress with a clear, evidence-based path that can be shared
-            internally, with stakeholders, and with guests.
-          </p>
-          <ul>
-            <li>Creates transparency around sustainability priorities</li>
-            <li>Supports continuous improvement across departments</li>
-            <li>Aligns teams around a common framework and language</li>
-          </ul>
-        </article>
-      </section>
-
-      <section class="section" id="roadmap">
-        <h2>Roadmap to Eco-Rating certification</h2>
-        <p>
-          The certification journey is most effective when it is framed as a phased roadmap: understand the criteria,
-          assess current performance, close gaps, and demonstrate improvement over time.
-        </p>
-        <div class="timeline">
-          <div class="step">
-            <strong>1. Learn the standards</strong><br />
-            Review the core criteria, checklist, and supporting documentation to understand the expectations and scoring logic.
-          </div>
-          <div class="step">
-            <strong>2. Evaluate current operations</strong><br />
-            Use the questions and evaluation tools to identify where the property already excels and where improvements are needed.
-          </div>
-          <div class="step">
-            <strong>3. Build a practical action plan</strong><br />
-            Prioritize initiatives that improve efficiency, reduce environmental impact, and strengthen engagement.
-          </div>
-          <div class="step">
-            <strong>4. Demonstrate progress</strong><br />
-            Collect evidence, document outcomes, and prepare for the certification review with confidence.
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="subtitle">The Leading North American Standard in Sustainable Hospitality Certification</div>
+          <h1>A Hotel's Roadmap to Eco-Rating Certification</h1>
+          <p>Why certification matters, how our program works, and how any property can get there. The case is grounded in business outcomes, from revenue and risk to operating cost and market access.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="mailto:info@greenkeyglobal.com">Start the Conversation</a>
+            <a class="btn btn-ghost" href="how-it-works.html">See How It Works</a>
           </div>
         </div>
       </section>
 
       <section class="section">
-        <h2>Core themes reflected in the source materials</h2>
-        <div>
-          <span class="pill">Sustainability strategy</span>
-          <span class="pill">Operational excellence</span>
-          <span class="pill">Guest engagement</span>
-          <span class="pill">Certification readiness</span>
-          <span class="pill">Market differentiation</span>
-          <span class="pill">Continuous improvement</span>
+        <div class="container">
+          <h2 class="section-title">The question every hotel gets asked</h2>
+          <div class="grid-4">
+            <article class="card">
+              <h3>Corporate RFPs</h3>
+              <p>Travel buyers ask for recognized certification before shortlisting your property.</p>
+            </article>
+            <article class="card">
+              <h3>Booking platforms</h3>
+              <p>OTAs ask for third-party verification before showing a sustainability badge.</p>
+            </article>
+            <article class="card">
+              <h3>Brand standards</h3>
+              <p>Flags are adding certification to brand requirements and operating expectations.</p>
+            </article>
+            <article class="card">
+              <h3>The utility line</h3>
+              <p>Owners ask why energy, water, and waste costs keep climbing from year to year.</p>
+            </article>
+          </div>
+          <div class="card" style="margin-top: 1rem;">
+            <p>It is always the same question underneath: can this hotel prove, credibly, how it operates?</p>
+          </div>
         </div>
       </section>
 
-      <section class="section" id="sources">
-        <h2>Source materials included</h2>
-        <p>The site is designed to be a lightweight summary that can be shared alongside the original documents.</p>
-        <div class="source-list">
-          <div class="source-item"><strong>Roadmap document:</strong> <a href="Source%20Files/A_Hotels_Roadmap_to_Eco-Rating_Certification.docx" target="_blank" rel="noreferrer">A_Hotels_Roadmap_to_Eco-Rating_Certification.docx</a></div>
-          <div class="source-item"><strong>Core criteria overview:</strong> <a href="Source%20Files/00.Core-Criteria-One-Pager-FINAL.pdf" target="_blank" rel="noreferrer">00.Core-Criteria-One-Pager-FINAL.pdf</a></div>
-          <div class="source-item"><strong>Checklist and questions:</strong> <a href="Source%20Files/01.Core-Criteria-Checklist.pdf" target="_blank" rel="noreferrer">01.Core-Criteria-Checklist.pdf</a> and <a href="Source%20Files/02.Core-Criteria-Questions.pdf" target="_blank" rel="noreferrer">02.Core-Criteria-Questions.pdf</a></div>
-          <div class="source-item"><strong>Presentation and marketing assets:</strong> available in the <a href="Source%20Files/" target="_blank" rel="noreferrer">Source Files</a> folder for deeper reference</div>
+      <section class="stat-band">
+        <div class="container">
+          <div class="grid-4">
+            <article class="stat-card">
+              <span class="number">3,000+</span>
+              <div class="caption">Certified properties across North America</div>
+            </article>
+            <article class="stat-card">
+              <span class="number">3x</span>
+              <div class="caption">The corporate room nights at certified hotels, according to the Alo Index</div>
+            </article>
+            <article class="stat-card">
+              <span class="number">~11 days</span>
+              <div class="caption">Average time to complete the Core Criteria assessment</div>
+            </article>
+            <article class="stat-card">
+              <span class="number">&lt;$80/mo</span>
+              <div class="caption">Published U.S. cost across a full three-year cycle</div>
+            </article>
+          </div>
+          <p class="source-note">Corporate room-night figure: Alo Index, analysis of 5,082 assessed hotels, 2025 full year. Other figures: Green Key Global program data and published pricing, July 2026.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Why this program stands apart</h2>
+          <div class="grid-2">
+            <article class="card">
+              <ul class="checklist">
+                <li><strong>Built by the industry.</strong> Founded in 1993 and jointly owned by the American Hotel & Lodging Association and Hotels Canada.</li>
+                <li><strong>No capital spend required.</strong> The assessment scores what a property already does and recommends improvement over time.</li>
+                <li><strong>A trusted benchmark.</strong> Aligned with all 17 UN Sustainable Development Goals, GSTC-Recognized, recognized by Travalyst, and verified by an independent third-party auditor.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <ul class="checklist">
+                <li><strong>A clear front door.</strong> The 2026 Core Criteria define 37 mandatory questions as the path to a first Key.</li>
+                <li><strong>Priced for every tier.</strong> Published U.S. pricing works out to less than $80 per month across a full three-year cycle.</li>
+                <li><strong>Built for growth.</strong> The program supports a property from a first Key through a full 5 Key certification journey.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Explore the full story</h2>
+          <div class="grid-3">
+            <article class="card">
+              <h3>Why Certify</h3>
+              <p>See the business case around demand, revenue, risk, cost, and asset value.</p>
+              <a href="why-certify.html">Read more</a>
+            </article>
+            <article class="card">
+              <h3>How It Works</h3>
+              <p>Walk through the assessment, Core Criteria, audit, rating, and post-certification support.</p>
+              <a href="how-it-works.html">Read more</a>
+            </article>
+            <article class="card">
+              <h3>Pricing and ROI</h3>
+              <p>Review the published pricing and test the ROI calculator for a pilot or portfolio rollout.</p>
+              <a href="pricing.html">Read more</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Source materials</h2>
+          <div class="card">
+            <p>Use the attached source files to dig deeper into the roadmap, criteria, presentations, and marketing materials.</p>
+            <div class="badge-row">
+              <a class="badge" href="Source%20Files/A_Hotels_Roadmap_to_Eco-Rating_Certification.docx">Roadmap document</a>
+              <a class="badge" href="Source%20Files/00.Core-Criteria-One-Pager-FINAL.pdf">Core Criteria overview</a>
+              <a class="badge" href="Source%20Files/01.Core-Criteria-Checklist.pdf">Checklist</a>
+              <a class="badge" href="Source%20Files/02.Core-Criteria-Questions.pdf">Questions</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      Static site ready for GitHub Pages deployment from the workspace root.
+    <footer class="footer-band">
+      <div class="container row">
+        <div>GREENKEYGLOBAL.COM</div>
+        <div class="footer-links">
+          <a href="mailto:info@greenkeyglobal.com">info@greenkeyglobal.com</a>
+          <a href="https://greenkeyglobal.com" target="_blank" rel="noreferrer">greenkeyglobal.com</a>
+        </div>
+      </div>
     </footer>
+    <div class="container footer-meta">
+      <p>Last updated July 2026. Pricing and program details should be confirmed at greenkeyglobal.com.</p>
+    </div>
+    <script src="site.js"></script>
   </body>
 </html>
