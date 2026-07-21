@@ -108,7 +108,7 @@ img { max-width: 100%; display: block; }
 .checklist li:last-child { border-bottom: none; }
 .callout { padding: 1.1rem; border-radius: 16px; background: var(--gk-dark); color: #fff; }
 .callout .number { font-family: Montserrat, Arial, sans-serif; font-size: 2rem; font-weight: 800; color: var(--gk-bright); }
-.cta-band { background: linear-gradient(135deg, var(--gk-deep) 0%, #1e6f2d 100%); color: #fff; padding: 2rem 0; border-radius: 18px; margin: 0 0 2rem; }
+.cta-band { background: linear-gradient(135deg, var(--gk-deep) 0%, #1e6f2d 100%); color: #fff; padding: 2.2rem 2rem; border-radius: 18px; margin: 0 0 2rem; }
 .cta-band h3 { margin: 0 0 0.4rem; font-family: Montserrat, Arial, sans-serif; }
 .cta-band p { margin: 0 0 1rem; color: rgba(255,255,255,0.92); }
 .table-wrap { overflow-x: auto; }
