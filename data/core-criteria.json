@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "title": "Eco-Rating Core Criteria",
+    "subtitle": "The 37 mandatory questions that define baseline certification eligibility",
+    "totalQuestions": 37,
+    "source": "Green Key Global Eco-Rating Core Criteria, June 2026",
+    "sourceNote": "Question wording, answer options, and requirements are periodically revised by Green Key Global. The live self-assessment portal and greenkeyglobal.com are the source of record.",
+    "scoringNote": "This reference shows what each question asks and what documentation it requires. It does not show scoring. Scoring detail is available inside the self-assessment portal.",
+    "sections": [
+      { "id": "corporate", "label": "Corporate", "description": "Policies, governance, and the Green Team", "count": 15 },
+      { "id": "housekeeping", "label": "Housekeeping", "description": "Guestroom and cleaning operations", "count": 10 },
+      { "id": "engineering", "label": "Engineering", "description": "Utilities, maintenance, and building systems", "count": 12 }
+    ],
+    "uploadCount": 9
+  },
+  "questions": [
+    {
+      "id": "corp-q1",
+      "section": "corporate",
+      "ref": "Q1",
+      "question": "Does your hotel have a written sustainability policy (or set of policies) in place?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": true,
+      "uploadDocument": "Sustainability policy",
+      "templateProvided": true,
+      "owner": "General Manager and senior leadership"
+    },
+    {
+      "id": "corp-q1a",
+      "section": "corporate",
+      "ref": "Q1a",
+      "question": "Has the sustainability policy been endorsed (approved and signed) by a hotel senior corporate officer?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": false,
+      "owner": "General Manager and senior leadership"
+    },
+    {
+      "id": "corp-q1b",
+      "section": "corporate",
+      "ref": "Q1b",
+      "question": "Is a senior manager or officer accountable for monitoring policy implementation, to ensure hotel operations align with the sustainability policy?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": false,
+      "owner": "General Manager and senior leadership"
+    },
+    {
+      "id": "corp-q1c",
+      "section": "corporate",
+      "ref": "Q1c",
+      "question": "Is the sustainability policy communicated to all members of the organization?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": false,
+      "owner": "General Manager and Green Team"
+    },
+    {
+      "id": "corp-q1d",
+      "section": "corporate",
+      "ref": "Q1d",
+      "question": "The hotel-wide sustainability policy includes a commitment to addressing the following.",
+      "responseType": "Select all that apply",
+      "requirement": "Must select all options flagged mandatory, plus any others that apply.",
+      "mandatoryElements": [
+        "Environmental issues",
+        "Social and cultural issues",
+        "Ongoing, continuous improvement",
+        "Energy conservation and efficient use",
+        "Water conservation",
+        "Waste reduction"
+      ],
+      "uploadRequired": false,
+      "owner": "General Manager and Green Team"
+    },
+    {
+      "id": "corp-q1f",
+      "section": "corporate",
+      "ref": "Q1f",
+      "question": "Does the policy or set of policies cover a long-term approach, and has the policy been developed suitable to the hotel's size and scope of services?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": false,
+      "owner": "General Manager and senior leadership"
+    },
+    {
+      "id": "corp-q2",
+      "section": "corporate",
+      "ref": "Q2",
+      "question": "Does a written management action plan exist that addresses policy commitments?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": true,
+      "uploadDocument": "Management action plan",
+      "templateProvided": true,
+      "owner": "General Manager and Green Team"
+    },
+    {
+      "id": "corp-q2a",
+      "section": "corporate",
+      "ref": "Q2a",
+      "question": "When was the written management action plan last reviewed or revised?",
+      "responseType": "Single choice",
+      "requirement": "The implemented plan must have been reviewed within the past 12 months.",
+      "uploadRequired": false,
+      "owner": "General Manager and Green Team"
+    },
+    {
+      "id": "corp-q2b",
+      "section": "corporate",
+      "ref": "Q2b",
+      "question": "The hotel's written management action plan includes the following.",
+      "responseType": "Select all that apply",
+      "requirement": "Must select all options flagged mandatory, plus any others that apply.",
+      "mandatoryElements": [
+        "Ongoing measurement and monitoring"
+      ],
+      "uploadRequired": false,
+      "owner": "General Manager and Green Team"
+    },
+    {
+      "id": "corp-q3",
+      "section": "corporate",
+      "ref": "Q3",
+      "question": "Does the hotel have a written responsible purchasing policy that prioritizes the following elements?",
+      "responseType": "Select all that apply",
+      "requirement": "Must select all options flagged mandatory, plus any others that apply.",
+      "mandatoryElements": [
+        "Local sourcing",
+        "Recycled content (paper, plastics, and similar)",
+        "Eco-friendly products (cleaning supplies, amenities, and similar)",
+        "Certified responsible or green products (fair trade, organic, and similar)",
+        "Local, eco-friendly, or certified responsible suppliers"
+      ],
+      "uploadRequired": true,
+      "uploadDocument": "Responsible purchasing policy",
+      "templateProvided": true,
+      "owner": "General Manager and Purchasing"
+    },
+    {
+      "id": "corp-q9",
+      "section": "corporate",
+      "ref": "Q9",
+      "question": "Has a Green Team been assigned responsibility for directing and coordinating environmental initiatives?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": false,
+      "owner": "General Manager"
+    },
+    {
+      "id": "corp-q9a",
+      "section": "corporate",
+      "ref": "Q9a",
+      "question": "The Green Team is comprised of the following.",
+      "responseType": "Single choice",
+      "requirement": "Must select at least one option. At minimum, one environmental coordinator or champion.",
+      "uploadRequired": false,
+      "owner": "Green Team lead"
+    },
+    {
+      "id": "corp-q9b",
+      "section": "corporate",
+      "ref": "Q9b",
+      "question": "Does the hotel's Green Team have a written mandate with support from senior management?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": true,
+      "uploadDocument": "Green Team written mandate",
+      "templateProvided": true,
+      "owner": "Green Team lead"
+    },
+    {
+      "id": "corp-q9c",
+      "section": "corporate",
+      "ref": "Q9c",
+      "question": "Does the hotel's Green Team meet at least quarterly?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes. The audit looks for evidence of actual meetings, not only a signed mandate.",
+      "uploadRequired": false,
+      "owner": "Green Team lead"
+    },
+    {
+      "id": "corp-q13",
+      "section": "corporate",
+      "ref": "Q13",
+      "question": "Which paper conservation initiatives are in place in offices and administration areas?",
+      "responseType": "Select all that apply",
+      "requirement": "Must select all options flagged mandatory, plus any others that apply.",
+      "mandatoryElements": [
+        "Guest folios are emailed rather than printed"
+      ],
+      "uploadRequired": false,
+      "owner": "General Manager and Front Office"
+    },
+
+    {
+      "id": "hk-q1",
+      "section": "housekeeping",
+      "ref": "Q1",
+      "question": "Is there a formal program in place which allows guests to opt out of housekeeping, for example reusing linens or towels?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes. An informal practice is not sufficient. Put the opt-out mechanics in writing and in the room.",
+      "uploadRequired": false,
+      "owner": "Executive Housekeeper"
+    },
+    {
+      "id": "hk-q2",
+      "section": "housekeeping",
+      "ref": "Q2",
+      "question": "Are standard set-points used for all guest room thermostats and communicated to Housekeeping staff?",
+      "responseType": "Select all that apply",
+      "requirement": "Must select the option flagged mandatory. An N/A option exists for properties without HVAC or with open-air buildings.",
+      "mandatoryElements": [
+        "Set point relevant to the region's climate"
+      ],
+      "uploadRequired": false,
+      "owner": "Executive Housekeeper and Chief Engineer"
+    },
+    {
+      "id": "hk-q4",
+      "section": "housekeeping",
+      "ref": "Q4",
+      "question": "Are housekeeping staff trained to use natural light when cleaning guestrooms?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": false,
+      "owner": "Executive Housekeeper"
+    },
+    {
+      "id": "hk-q5",
+      "section": "housekeeping",
+      "ref": "Q5",
+      "question": "When leaving guestrooms, are housekeeping staff trained to open or close blinds and drapes according to the heating and cooling needs of the room?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": false,
+      "owner": "Executive Housekeeper"
+    },
+    {
+      "id": "hk-q6",
+      "section": "housekeeping",
+      "ref": "Q6",
+      "question": "Are housekeepers trained to ensure windows and external doors are closed when heating or cooling systems are in use?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes. An N/A option exists for properties without HVAC or with open-air buildings.",
+      "uploadRequired": false,
+      "owner": "Executive Housekeeper"
+    },
+    {
+      "id": "hk-q7",
+      "section": "housekeeping",
+      "ref": "Q7",
+      "question": "Are housekeepers trained to check that lights, radios, and televisions are turned off in unoccupied rooms?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": false,
+      "owner": "Executive Housekeeper"
+    },
+    {
+      "id": "hk-q18",
+      "section": "housekeeping",
+      "ref": "Q18",
+      "question": "What percentage of cleaning products are eco-friendly (biodegradable, vegetable-based, non-toxic alternatives, or third-party certified)?",
+      "responseType": "Coverage scale",
+      "requirement": "Must select the option that reflects actual practice. This question is graduated, so partial conversion is recorded as partial coverage.",
+      "uploadRequired": false,
+      "owner": "Executive Housekeeper and Purchasing"
+    },
+    {
+      "id": "hk-q19",
+      "section": "housekeeping",
+      "ref": "Q19",
+      "question": "Do you have a policy and procedure in place concerning the proper handling and disposal of cleaning supplies and medical waste, such as cleaning chemicals, needles, and medications?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": true,
+      "uploadDocument": "Cleaning supplies and medical waste disposal policy",
+      "templateProvided": true,
+      "owner": "Executive Housekeeper"
+    },
+    {
+      "id": "hk-q20",
+      "section": "housekeeping",
+      "ref": "Q20",
+      "question": "Are housekeeping staff trained to minimize water use when cleaning?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": false,
+      "owner": "Executive Housekeeper"
+    },
+    {
+      "id": "hk-q21",
+      "section": "housekeeping",
+      "ref": "Q21",
+      "question": "Are housekeepers trained to report faulty equipment to the Maintenance department, for example windows that do not close, broken lights, running toilets, or dripping faucets?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": false,
+      "owner": "Executive Housekeeper and Chief Engineer"
+    },
+
+    {
+      "id": "eng-q4",
+      "section": "engineering",
+      "ref": "Q4",
+      "question": "Are annual use and costs of electricity being measured and tracked?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes and upload supporting documents.",
+      "uploadRequired": true,
+      "uploadDocument": "Electricity use and cost records",
+      "templateProvided": true,
+      "owner": "Chief Engineer",
+      "note": "The EPA ENERGY STAR Portfolio Manager is a free tool for tracking energy, water, waste, and emissions, and produces records of this kind."
+    },
+    {
+      "id": "eng-q5",
+      "section": "engineering",
+      "ref": "Q5",
+      "question": "Are annual use and costs of natural gas being measured and tracked?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes and upload supporting documents. An N/A option exists if natural gas is not used at the property.",
+      "uploadRequired": true,
+      "uploadDocument": "Natural gas use and cost records",
+      "templateProvided": true,
+      "owner": "Chief Engineer"
+    },
+    {
+      "id": "eng-q11",
+      "section": "engineering",
+      "ref": "Q11",
+      "question": "Are annual use and costs of water being measured and tracked?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes and upload supporting documents.",
+      "uploadRequired": true,
+      "uploadDocument": "Water use and cost records",
+      "templateProvided": true,
+      "owner": "Chief Engineer"
+    },
+    {
+      "id": "eng-q15",
+      "section": "engineering",
+      "ref": "Q15",
+      "question": "Is there a regularly scheduled preventative maintenance program in place that ensures routine maintenance and adjustments are made to the following?",
+      "responseType": "Select all that apply",
+      "requirement": "Must select all options flagged mandatory and upload the maintenance program.",
+      "mandatoryElements": [
+        "Heating and cooling systems",
+        "Ventilation systems",
+        "Plumbing (toilets, faucets)",
+        "Lighting upgrades"
+      ],
+      "uploadRequired": true,
+      "uploadDocument": "Preventative maintenance program",
+      "templateProvided": true,
+      "owner": "Chief Engineer"
+    },
+    {
+      "id": "eng-q17",
+      "section": "engineering",
+      "ref": "Q17",
+      "question": "Rather than running HVAC systems continuously, which of the following practices or modifications have been made to improve energy efficiency?",
+      "responseType": "Select all that apply",
+      "requirement": "Must select all options flagged mandatory, plus any others that apply.",
+      "mandatoryElements": [
+        "Scheduled checks by trained personnel"
+      ],
+      "uploadRequired": false,
+      "owner": "Chief Engineer"
+    },
+    {
+      "id": "eng-q22",
+      "section": "engineering",
+      "ref": "Q22",
+      "question": "Which of the following insulation measures have been taken?",
+      "responseType": "Select all that apply",
+      "requirement": "Must select all options flagged mandatory, plus any others that apply. An N/A option exists where climate does not support the need for such measures.",
+      "mandatoryElements": [
+        "All doors and windows are properly weather stripped or caulked",
+        "Entry doors are revolving or kept closed"
+      ],
+      "uploadRequired": false,
+      "owner": "Chief Engineer"
+    },
+    {
+      "id": "eng-q23",
+      "section": "engineering",
+      "ref": "Q23",
+      "question": "Which of the following features have been installed on windows to reduce solar energy gains?",
+      "responseType": "Select all that apply",
+      "requirement": "Must select all options flagged mandatory, plus any others that apply. An N/A option exists for climates where solar gain supports heating requirements.",
+      "mandatoryElements": [
+        "Blinds, curtains, or shutters"
+      ],
+      "uploadRequired": false,
+      "owner": "Chief Engineer"
+    },
+    {
+      "id": "eng-q38",
+      "section": "engineering",
+      "ref": "Q38",
+      "question": "Which of the following are used for outdoor lighting, including building exterior, signage, parking garage, and security lighting?",
+      "responseType": "Select all that apply",
+      "requirement": "Must select all options flagged mandatory, plus any others that apply.",
+      "mandatoryElements": [
+        "Energy efficient light bulbs"
+      ],
+      "uploadRequired": false,
+      "owner": "Chief Engineer"
+    },
+    {
+      "id": "eng-q39",
+      "section": "engineering",
+      "ref": "Q39",
+      "question": "Is energy efficiency taken into consideration when purchasing new appliances and equipment, for example ENERGY STAR certified, EnerGuide ratings, or EU Energy Label?",
+      "responseType": "Yes or No",
+      "requirement": "Must answer Yes.",
+      "uploadRequired": false,
+      "owner": "Chief Engineer and Purchasing"
+    },
+    {
+      "id": "eng-q40",
+      "section": "engineering",
+      "ref": "Q40",
+      "question": "What percentage of guestrooms have been equipped with low-flow showerheads?",
+      "responseType": "Coverage scale",
+      "requirement": "Must select the option that reflects actual coverage. This question is graduated, so partial conversion is recorded as partial coverage.",
+      "uploadRequired": false,
+      "owner": "Chief Engineer",
+      "note": "Coverage is assessed across the guestroom count, so a partial conversion program leaves the remainder unanswered."
+    },
+    {
+      "id": "eng-q41",
+      "section": "engineering",
+      "ref": "Q41",
+      "question": "What percentage of guestrooms have been equipped with tap aerators?",
+      "responseType": "Coverage scale",
+      "requirement": "Must select the option that reflects actual coverage. This question is graduated, so partial conversion is recorded as partial coverage.",
+      "uploadRequired": false,
+      "owner": "Chief Engineer"
+    },
+    {
+      "id": "eng-q42",
+      "section": "engineering",
+      "ref": "Q42",
+      "question": "What percentage of guestrooms have been equipped with low-flow toilets, dual-flush toilets, toilet dams, or tank fill diverters?",
+      "responseType": "Coverage scale",
+      "requirement": "Must select the option that reflects actual coverage. This question is graduated, so partial conversion is recorded as partial coverage.",
+      "uploadRequired": false,
+      "owner": "Chief Engineer"
+    }
+  ]
+}

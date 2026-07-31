@@ -28,10 +28,17 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Build staging directory
+        run: |
+          mkdir -p _site
+          rsync -a --exclude='_site' --exclude='.git' --exclude='.github' \
+            --exclude='CLAUDE.md' --exclude='README.md' --exclude='assets/' \
+            ./ _site/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./
+          path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment
