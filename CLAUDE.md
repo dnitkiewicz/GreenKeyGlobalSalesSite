@@ -50,3 +50,94 @@ The calculation logic is correct and matches spec section 5.5. **Do not change t
 - [ ] Pricing table and calculator defaults unchanged (unless the change was requested)
 - [ ] Affected pages render correctly (charts show as bars, calculator responds)
 - [ ] Footer keeps the "confirm at greenkeyglobal.com" note
+---
+
+## Audience and purpose
+
+This site makes the case for Green Key Global Eco-Rating certification to **hotel owners and
+capital allocators**: ownership groups, asset managers, CRE investors, private equity, and lenders.
+General managers and management companies execute certification but do not approve capital, so the
+primary argument must be written for the person who signs the checks.
+
+A secondary track (the Readiness Hub) serves the operator who has to run the process after the
+owner says yes. Keep the two tracks visually and structurally distinct.
+
+## Contact and calls to action
+
+- Every CTA, mailto link, nav button, and footer contact uses **Sales@greenkeyglobal.com**.
+- Never use info@greenkeyglobal.com anywhere on this site.
+- Readiness Hub pages may additionally direct existing members to the Members Area and to
+  Green Key Global member services, but the sales CTA remains Sales@greenkeyglobal.com.
+
+## Scoring confidentiality (hard rule)
+
+The Eco-Rating point structure is proprietary. Nothing derived from the point table may appear
+on this site.
+
+Never publish:
+- Point values for any question or answer option
+- Section point totals or the total points available
+- Percentages, ratios, or shares derived from the point table
+- The percentage score ranges behind each Key level
+- Any arithmetic that would let a reader reconstruct scoring weights
+
+Permitted, because these describe structure and mechanics rather than values:
+- The five Key Performance Areas by name
+- That Conference and Meeting Services and Food and Beverage are optional, and that opting out
+  does not disadvantage a property
+- That graduated questions award partial credit for partial coverage and the most credit for
+  full coverage
+- That certain questions are scored separately by area (for example, lighting coverage in
+  guest rooms, public areas, and back of house)
+- That N/A options remove a question from scoring rather than penalizing the property
+- That there are 37 mandatory Core Criteria, and how they are distributed across Corporate,
+  Housekeeping, and Engineering by name
+- That every rating from 1 to 5 Keys is full certification
+
+QA test: search built pages for "point" and "%" . Every match must be either a sourced
+third-party statistic or a structural statement with no number attached to scoring.
+
+## Sourcing
+
+- Every statistic on a page must show its source on that page, inline or as a footnote.
+- Use only statistics listed in Section 6.1 of greenkey-website-spec.md. Do not introduce new
+  figures, do not estimate, do not round from memory.
+- Link third-party research to the original publisher URL. Do not host third-party PDFs in
+  this repo.
+
+## Regulatory accuracy
+
+- The EU Empowering Consumers for the Green Transition Directive is **Directive (EU) 2024/825**,
+  in force **27 September 2026**. This is the directive to cite as a compliance date.
+- The **Green Claims Directive (COM 2023/166)** is a separate legislative proposal and is not
+  law. Reference it only as further EU rules in development, never as an in-force requirement.
+- Never merge the two into a single claim.
+
+## Content boundaries
+
+- No hotel brand names, management company names, or destination organization names.
+- No discount percentages, negotiated rates, or internal commercial strategy. Portfolio pricing
+  is described only as "portfolio agreements improve on list pricing."
+- No internal targets, revenue goals, or pipeline information.
+- greenkeyglobal.com is cited as the source of record for anything subject to change.
+
+## Draft status
+
+While the site is pending internal review, every page must carry
+`<meta name="robots" content="noindex, nofollow">` in the head, and robots.txt must contain
+`User-agent: *` and `Disallow: /`. Do not remove these without an explicit instruction.
+
+## Writing style
+
+- Plain business English. Lead with operational and financial impact.
+- Short scannable sections with bolded lead-ins. Avoid dense paragraphs.
+- **No em dashes and no en dashes** anywhere in output. Use commas, colons, or periods.
+- Do not use sustainability language where operating language will do. Say operating cost,
+  NOI, asset value, corporate mix, and risk.
+
+## Technical
+
+- Static HTML, one small shared CSS file, no build step, no CMS.
+- Match the existing nav, footer, and CSS class structure of the current pages exactly.
+- No blocking scripts except the ROI calculator.
+- Target Lighthouse 90+ on performance, accessibility, best practices, and SEO.
