@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>The full assessment, all 213 questions | Green Key Global</title>
+<meta name="description" content="Every question in the Green Key Eco-Rating assessment, filterable by section, with the 37 mandatory Core Criteria flagged.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="index.html">Green Key <span>Global</span></a>
+    <button class="navtoggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="why-certify.html">Why certify</a>
+      <a href="how-it-works.html">How it works</a>
+      <a href="for-properties.html">One property</a>
+      <a href="for-portfolios.html">Portfolios</a>
+      <a href="questions.html" aria-current="page">Questions</a>
+      <a href="readiness.html">Readiness</a>
+      <a class="btn-sm" href="mailto:Sales@greenkeyglobal.com">Talk to us</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" style="padding-bottom:1.5rem">
+    <div class="wrap">
+      <p class="eyebrow">The complete assessment</p>
+      <h1>Every question we will ask you</h1>
+      <p class="lede">All 213 questions, exactly as the assessment asks them. The 37 mandatory Core Criteria are flagged, and each question shows whether it requires supporting documentation. Nothing to fill in and no login.</p>
+      <p style="font-size:.92rem;color:var(--muted);max-width:62ch">Scoring is not shown here. Point values, answer weightings and rating thresholds live in the member portal, so that properties prepare against the practice rather than optimise against the arithmetic.</p>
+    </div>
+  </section>
+
+  <div class="qfilters">
+    <div class="wrap qfilters-in">
+      <label for="qsearch" class="skip">Search questions</label>
+      <input class="qsearch" id="qsearch" type="search" placeholder="Search all questions, for example: linen, metering, refrigerant">
+      <button class="chip" data-f="core" aria-pressed="true">Core Criteria only</button>
+      <button class="chip" data-f="doc" aria-pressed="false">Needs documentation</button>
+      <button class="chip" data-k="ALL" aria-pressed="true">All sections</button>
+      <button class="chip" data-k="CORP" aria-pressed="false">Corporate</button>
+      <button class="chip" data-k="ENG" aria-pressed="false">Engineering</button>
+      <button class="chip" data-k="HK" aria-pressed="false">Housekeeping</button>
+      <button class="chip" data-k="FB" aria-pressed="false">F&amp;B</button>
+      <button class="chip" data-k="CONF" aria-pressed="false">Conference</button>
+    </div>
+  </div>
+
+  <section class="sec" style="padding-top:1rem">
+    <div class="wrap">
+      <p class="qcount" id="qcount" role="status">Loading the assessment&hellip;</p>
+      <ul class="qlist" id="qlist"></ul>
+      <div class="qempty" id="qempty" hidden>
+        <strong>No questions match those filters.</strong>
+        Clear the search box, or switch back to all sections.
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--tint">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Not sure where you stand?</h2>
+      </div>
+      <p>Most properties find they already meet more of this than they expected. If you want to walk the list with someone who knows the assessment, we are happy to do that before you commit to anything.</p>
+      <div class="btn-row">
+        <a class="btn" href="mailto:Sales@greenkeyglobal.com">Talk to our team</a>
+        <a class="btn btn--ghost" href="readiness.html">Check your readiness first</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-note">
+      <p>Questions reflect the current Eco-Rating assessment. Confirm current requirements at <a href="https://greenkeyglobal.com">greenkeyglobal.com</a>.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+<script>
+(function () {
+  var listEl = document.getElementById('qlist');
+  var countEl = document.getElementById('qcount');
+  var emptyEl = document.getElementById('qempty');
+  var searchEl = document.getElementById('qsearch');
+  var all = [];
+  var state = { kpa: 'ALL', core: true, doc: false, q: '' };
+
+  var KPA_NAME = {
+    CORP: 'Corporate', ENG: 'Engineering', HK: 'Housekeeping',
+    FB: 'Food & Beverage', CONF: 'Conference'
+  };
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function render() {
+    var q = state.q.trim().toLowerCase();
+    var rows = all.filter(function (item) {
+      if (state.kpa !== 'ALL' && item.kpa !== state.kpa) return false;
+      if (state.core && !item.core) return false;
+      if (state.doc && !item.documentation) return false;
+      if (q) {
+        var hay = (item.text + ' ' + item.id + ' ' + item.kpaLabel).toLowerCase();
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+
+    countEl.textContent = rows.length + ' of ' + all.length + ' questions shown';
+    emptyEl.hidden = rows.length > 0;
+
+    listEl.innerHTML = rows.map(function (item) {
+      var tags = '';
+      if (item.core) tags += '<span class="tag tag--core">Core criteria</span>';
+      if (item.documentation) tags += '<span class="tag tag--doc">Documentation required</span>';
+      if (item.optionalSection) tags += '<span class="tag tag--opt">Optional section</span>';
+
+      var opts = '';
+      if (item.options && item.options.length) {
+        opts = '<details><summary>Answer options (' + item.options.length + ')</summary><ul class="q-opts">' +
+          item.options.map(function (o) {
+            return '<li data-m="' + (o.mandatory ? 'true' : 'false') + '">' + esc(o.label) +
+              (o.mandatory ? '<span class="m">required</span>' : '') + '</li>';
+          }).join('') + '</ul></details>';
+      }
+
+      return '<li class="q" id="' + esc(item.id) + '" data-core="' + item.core + '">' +
+        '<div class="q-top">' +
+          '<a class="qid" href="#' + esc(item.id) + '">' + esc(item.id) + '</a>' +
+          '<span class="tag tag--opt">' + esc(KPA_NAME[item.kpa] || item.kpa) + '</span>' +
+          tags +
+        '</div>' +
+        '<p class="q-text">' + esc(item.text) + '</p>' +
+        opts +
+      '</li>';
+    }).join('');
+  }
+
+  document.querySelectorAll('.chip').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      if (btn.dataset.k) {
+        state.kpa = btn.dataset.k;
+        document.querySelectorAll('.chip[data-k]').forEach(function (b) {
+          b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+        });
+      } else {
+        var f = btn.dataset.f;
+        state[f] = !state[f];
+        btn.setAttribute('aria-pressed', state[f] ? 'true' : 'false');
+      }
+      render();
+    });
+  });
+
+  var t;
+  searchEl.addEventListener('input', function () {
+    clearTimeout(t);
+    t = setTimeout(function () { state.q = searchEl.value; render(); }, 140);
+  });
+
+  fetch('data/questions.json')
+    .then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    })
+    .then(function (data) {
+      all = data.questions;
+      // If the page was opened with an anchor, show everything so the target exists.
+      if (location.hash) {
+        state.core = false;
+        document.querySelector('.chip[data-f="core"]').setAttribute('aria-pressed', 'false');
+      }
+      render();
+      if (location.hash) {
+        var el = document.getElementById(location.hash.slice(1));
+        if (el) el.scrollIntoView();
+      }
+    })
+    .catch(function () {
+      countEl.textContent = '';
+      emptyEl.hidden = false;
+      emptyEl.innerHTML = '<strong>The question list did not load.</strong> ' +
+        'This page reads data/questions.json, which needs to be served over http rather than opened as a local file. ' +
+        'Run a local server from the site folder, or view it on GitHub Pages.';
+    });
+})();
+</script>
+</body>
+</html>

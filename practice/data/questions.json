@@ -1,0 +1,6327 @@
+{
+ "meta": {
+  "version": "V4",
+  "sourceFile": "GKV4_QA_Master_English_20260424.xlsx",
+  "questionCount": 213,
+  "coreCount": 37,
+  "kpas": [
+   {
+    "code": "CORP",
+    "label": "Corporate Environmental Management",
+    "optional": false,
+    "count": 52
+   },
+   {
+    "code": "HK",
+    "label": "Housekeeping",
+    "optional": false,
+    "count": 29
+   },
+   {
+    "code": "CONF",
+    "label": "Conference & Meeting Services",
+    "optional": true,
+    "count": 17
+   },
+   {
+    "code": "FB",
+    "label": "Food & Beverage",
+    "optional": true,
+    "count": 39
+   },
+   {
+    "code": "ENG",
+    "label": "Engineering & Maintenance",
+    "optional": false,
+    "count": 76
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "CORP-1",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "1",
+   "text": "Does your hotel have a written sustainability policy (or set of policies) in place?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-1a",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "1a",
+   "text": "Has the sustainability policy been endorsed (approved and signed) by a hotel senior corporate officer?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-1b",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "1b",
+   "text": "Is a senior manager/officer accountable for monitoring the policy implementation, to ensure the hotel operations are aligning with the sustainability policy?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-1c",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "1c",
+   "text": "Is the sustainability policy communicated to all members of the organization?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-1d",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "1d",
+   "text": "The hotel-wide sustainability policy includes commitment to addressing the following: (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Environmental issues",
+     "mandatory": true
+    },
+    {
+     "label": "Social and cultural issues",
+     "mandatory": true
+    },
+    {
+     "label": "Economic and quality issues",
+     "mandatory": false
+    },
+    {
+     "label": "Health and safety issues",
+     "mandatory": false
+    },
+    {
+     "label": "Human rights",
+     "mandatory": false
+    },
+    {
+     "label": "Risk and crisis management",
+     "mandatory": false
+    },
+    {
+     "label": "At least one environmental target set by the company",
+     "mandatory": false
+    },
+    {
+     "label": "Ongoing, continuous improvement",
+     "mandatory": true
+    },
+    {
+     "label": "Energy conservation and efficient use",
+     "mandatory": true
+    },
+    {
+     "label": "Greenhouse gas emissions reduction",
+     "mandatory": false
+    },
+    {
+     "label": "Water conservation",
+     "mandatory": true
+    },
+    {
+     "label": "Waste reduction",
+     "mandatory": true
+    },
+    {
+     "label": "Reduction in, and proper use and handling of, hazardous and toxic substances",
+     "mandatory": false
+    },
+    {
+     "label": "Eco-purchasing - i.e. factoring environmental considerations into purchasing decisions/strategies (e.g. committing to buying fair trade or green certified/eco-labeled products such as linens, furniture and electronics)",
+     "mandatory": false
+    },
+    {
+     "label": "Procurement of local goods and services",
+     "mandatory": false
+    },
+    {
+     "label": "Actively seek ways to reduce the use of disposable and consumable goods",
+     "mandatory": false
+    },
+    {
+     "label": "Biodiversity conservation and protection of areas of high biodiversity value",
+     "mandatory": false
+    },
+    {
+     "label": "Employee education and engagement",
+     "mandatory": false
+    },
+    {
+     "label": "Community involvement and support for initiatives fostering social and economic development",
+     "mandatory": false
+    },
+    {
+     "label": "Improving accessibility of the hotel services",
+     "mandatory": false
+    },
+    {
+     "label": "Guest education and awareness",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-1e",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "1e",
+   "text": "In addition to the above commitments, the hotel-wide policy also incorporates a comprehensive, periodic training program for all employees on knowing their respective roles and responsibilities in management of these issues:",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Environmental awareness and behavior",
+     "mandatory": false
+    },
+    {
+     "label": "Social and cultural practices",
+     "mandatory": false
+    },
+    {
+     "label": "Human rights",
+     "mandatory": false
+    },
+    {
+     "label": "Risk and crisis management",
+     "mandatory": false
+    },
+    {
+     "label": "Economic and quality issues",
+     "mandatory": false
+    },
+    {
+     "label": "Management of health and safety practices",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-1f",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "1f",
+   "text": "Does the policy or set of policies cover a long-term approach and has the policy been developed suitable to the hotel's size and scope of services?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-1g",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "1g",
+   "text": "What information does the hotel make publicly available and transparent?",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Financial performance (must be transparent to employees at a minimum)",
+     "mandatory": false
+    },
+    {
+     "label": "Environmental performance",
+     "mandatory": false
+    },
+    {
+     "label": "Social performance",
+     "mandatory": false
+    },
+    {
+     "label": "Corporate ownership structure (beneficial ownership)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-2",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "2",
+   "text": "Does a written management action plan exist that addresses policy commitments?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-2a",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "2a",
+   "text": "When was the written management action plan last reviewed or revised?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "The implemented plan has been reviewed within the past 12 months",
+     "mandatory": true
+    },
+    {
+     "label": "Not reviewed in over one year",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-2b",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "2b",
+   "text": "The hotel's written management action plan includes the following: (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Performance indicators",
+     "mandatory": false
+    },
+    {
+     "label": "Quantified performance targets",
+     "mandatory": false
+    },
+    {
+     "label": "Ongoing measurement and monitoring",
+     "mandatory": true
+    },
+    {
+     "label": "Third party verification",
+     "mandatory": false
+    },
+    {
+     "label": "Improvement reflected in employee performance reward and remuneration",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-2c",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "2c",
+   "text": "How does the hotel integrate the implementation and management of sustainability policies and action plan? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Employee training includes sustainability issues relevant to the hotel and local context",
+     "mandatory": false
+    },
+    {
+     "label": "Job descriptions, performance reviews and compensation explicitly incorporate sustainability performance",
+     "mandatory": false
+    },
+    {
+     "label": "Formal and regular processes in place to gather feedback from staff on sustainability performance",
+     "mandatory": false
+    },
+    {
+     "label": "Formal and regular processes in place to gather feedback from stakeholders on sustainability performance",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-3",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "3",
+   "text": "Does the hotel have a written responsible purchasing policy that prioritizes the following elements? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Local sourcing",
+     "mandatory": true
+    },
+    {
+     "label": "Recycled content (for paper, plastics, etc.)",
+     "mandatory": true
+    },
+    {
+     "label": "Eco-friendly products (Cleaning supplies, amenities, etc.)",
+     "mandatory": true
+    },
+    {
+     "label": "Upcycled products (furniture, art, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "Natural fibers (Uniforms, linens, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "Certified Responsible/Green Products (Fair trade, Organic, etc.)",
+     "mandatory": true
+    },
+    {
+     "label": "Local, eco-friendly or certified responsible suppliers (B Corp, carbon neutral, etc.)",
+     "mandatory": true
+    },
+    {
+     "label": "Reusable (No single-use)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-4",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "4",
+   "text": "Does the hotel have a written IT policy that addresses computer use, turning off monitors, use of power bars, etc.?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-5",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "5",
+   "text": "Is there a written policy for the use, handling and disposal of hazardous waste to ensure they are properly managed? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "A hazardous waste communication program is in place (e.g. WHMIS in Canada, OSHA's Hazard Communication Standard (HCS) in the U.S.)",
+     "mandatory": false
+    },
+    {
+     "label": "MSDS (Material Safety Data Sheets) for every chemical used on-site",
+     "mandatory": false
+    },
+    {
+     "label": "A formal procedure is in place and followed for proper use and disposal (written and posted)",
+     "mandatory": false
+    },
+    {
+     "label": "No policy exists",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-6",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "6",
+   "text": "Does the hotel have a written policy and program in place for the recovery of equipment containing Chlorofluorocarbons (CFCs)?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (e.g. new build) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-7",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "7",
+   "text": "Is there a written plan in place to minimize guest and employee exposure to volatile organic compounds (e.g. paints, cleaning products, textiles, carpets, etc.)?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-8",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "8",
+   "text": "Is there a written procedure in place (i.e. one in which there is a clear process with an audit trail of complaint to remedy) to deal with complaints, including those of an environmental nature (e.g. indoor air quality, toxic spills, paint/smoke odor, etc.)?",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Procedure for guests",
+     "mandatory": false
+    },
+    {
+     "label": "Procedure for employees",
+     "mandatory": false
+    },
+    {
+     "label": "No procedure",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-9",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "9",
+   "text": "Has a Green Team been assigned responsibility for directing and coordinating environmental initiatives?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-9a",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "9a",
+   "text": "The Green Team is comprised of: (must select at least one of the following)",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Representatives from all departments and management",
+     "mandatory": false
+    },
+    {
+     "label": "One environmental coordinator / champion",
+     "mandatory": true
+    },
+    {
+     "label": "Representatives from multiple departments",
+     "mandatory": false
+    },
+    {
+     "label": "Representatives from multiple departments and management",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-9b",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "9b",
+   "text": "Does the hotel's Green Team have a written mandate with support from senior management?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-9c",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "9c",
+   "text": "Does the hotel's Green Team meet at least quarterly?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-10",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "10",
+   "text": "Which communications strategies and practices (beyond training) regarding environmental initiatives and climate change have been implemented for staff? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Displays in staff areas, department memos, back of house bulletin board, and/or employee newsletters to communicate various environmental messages and updates",
+     "mandatory": false
+    },
+    {
+     "label": "Employees are recognized and rewarded on a regular basis for contributing innovative environmental suggestions and solutions",
+     "mandatory": false
+    },
+    {
+     "label": "Addressed regularly at employee meetings",
+     "mandatory": false
+    },
+    {
+     "label": "Internal activities such as \"save water day\" or \"climate action week\" are regularly used to educate staff, communicate best practices and celebrate achievements",
+     "mandatory": false
+    },
+    {
+     "label": "Employees are encouraged to practice environmentally responsible behaviors outside of work",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-11",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "11",
+   "text": "Which communication strategies regarding environmental initiatives and practices for suppliers have been implemented? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "The hotel's environmental commitment communicated to suppliers via letter, memo, etc.",
+     "mandatory": false
+    },
+    {
+     "label": "Arrangements have been made to eliminate/return excess packaging or only accept packaging that is recyclable or reusable",
+     "mandatory": false
+    },
+    {
+     "label": "Suppliers' environmental policies are requested and evaluated before making purchasing decisions",
+     "mandatory": false
+    },
+    {
+     "label": "Information about product environmental attributes is requested",
+     "mandatory": false
+    },
+    {
+     "label": "Suppliers are evaluated and ranked based on green supplier questionnaire",
+     "mandatory": false
+    },
+    {
+     "label": "Suppliers are encouraged to use cleaner and more resource efficient alternatives",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-12",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "12",
+   "text": "Which communications strategies regarding environmental and cultural initiatives, practices, and behavior for guests are in place? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "The hotel's sustainability goals and objectives are clearly communicated to guests through the in-room guest directory, guest info-channel, key cards, website, sales/marketing brochures, public area signage, etc.",
+     "mandatory": false
+    },
+    {
+     "label": "An explanation is given of appropriate behavior while visiting natural areas, living cultures, and cultural heritage sites",
+     "mandatory": false
+    },
+    {
+     "label": "Guests are given the tools and encouraged to participate in the hotel's environmental programs (e.g. in-room recycling, light/appliance switch-off, linen/towel reuse programs, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "Feedback on ways to improve environmental performance is solicited from guests through comment cards or a survey",
+     "mandatory": false
+    },
+    {
+     "label": "Environmental awards and plaques are posted in public areas",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-13",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "13",
+   "text": "Which paper conservation initiatives in offices/administration areas are in place: (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Scratch pads (e.g. for phone messages, notes, etc.) are made from used paper",
+     "mandatory": false
+    },
+    {
+     "label": "Guest folios are emailed, as opposed to printed",
+     "mandatory": true
+    },
+    {
+     "label": "The default setting on all printers and photocopiers is double-sided printing",
+     "mandatory": false
+    },
+    {
+     "label": "Unsolicited magazines, catalogues, etc. are contacted for removal from mailing lists",
+     "mandatory": false
+    },
+    {
+     "label": "An electronic bulletin board posts general staff announcements, memos, etc.",
+     "mandatory": false
+    },
+    {
+     "label": "Packaging and shipping paper is saved and reused",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-13a",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "13a",
+   "text": "Office paper products have a tree-free or post consumer recycled content (PCR) of:",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "1",
+     "mandatory": false
+    },
+    {
+     "label": "0.5",
+     "mandatory": false
+    },
+    {
+     "label": "0.3",
+     "mandatory": false
+    },
+    {
+     "label": "FSC Certified",
+     "mandatory": false
+    },
+    {
+     "label": "0",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-14",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "14",
+   "text": "Does the hotel participate in associations, networks, or other affiliations that provide information regarding environmental practices, products, and/or services relating to the lodging industry? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Government programs to encourage sustainability-related initiatives (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "International Tourism Partnership",
+     "mandatory": false
+    },
+    {
+     "label": "Energy Star for Hospitality",
+     "mandatory": false
+    },
+    {
+     "label": "The Green Hotels Association",
+     "mandatory": false
+    },
+    {
+     "label": "Other relevant organization or industry association: local, national or international (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-15",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "15",
+   "text": "Does your hotel sponsor, celebrate, or participate in local, national, and/or international environmental events? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Community/park clean-ups",
+     "mandatory": false
+    },
+    {
+     "label": "International Day of Forests (March 21)",
+     "mandatory": false
+    },
+    {
+     "label": "World Water Day (March 22)",
+     "mandatory": false
+    },
+    {
+     "label": "Earth Day (April 22)",
+     "mandatory": false
+    },
+    {
+     "label": "World Oceans Day (June 8)",
+     "mandatory": false
+    },
+    {
+     "label": "Sustainable transportation days (e.g. Clean-air commute, bike-to-work, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "Tree plantings (e.g. Arbor Day)",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-16",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "16",
+   "text": "How does the hotel work to maximize social and economic benefits to the local community?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Information provided to guests highlighting locally owned and sustainability focused shops, cultural experiences and dining opportunities based on the area's nature, history, and culture.",
+     "mandatory": false
+    },
+    {
+     "label": "Retail shop features sustainably focused, locally procured and/or culturally appropriate goods and artwork based on the area's nature, history and culture.",
+     "mandatory": false
+    },
+    {
+     "label": "The organization supports local entrepreneurs in the development of sustainable products and services that are based on the area’s nature, history and culture. (e.g. local pop-up opportunities, mentorship/business coaching, partnerships, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "Supports initiatives for local infrastructure and social community development.",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-17",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "17",
+   "text": "How is information provided to guests to enable the interpretation of natural surroundings, local culture, and cultural heritage of the hotel's vicinity or destination?",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "On-site interpretive signage",
+     "mandatory": false
+    },
+    {
+     "label": "Information included on website",
+     "mandatory": false
+    },
+    {
+     "label": "Informational handouts available",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-18",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "18",
+   "text": "Whenever applicable, does the hotel follow international and national good practice for the following natural and/or culturally sensitive activities? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Management and promotion of visits to Indigenous communities, culturally or historically sensitive sites",
+     "mandatory": false
+    },
+    {
+     "label": "Management and promotion of visits to natural sites in order to minimize adverse impacts and maximize visitor fulfillment",
+     "mandatory": false
+    },
+    {
+     "label": "Historical and archeological artifacts are not sold, traded, and are displayed only as permitted by local and international law",
+     "mandatory": false
+    },
+    {
+     "label": "Programs are in place to contribute to the protection, preservation and enhancement of local properties, sites and traditions of historical, archaeological, cultural and spiritual significance",
+     "mandatory": false
+    },
+    {
+     "label": "The facility's operations do not impede access by local residents to such cultural/historical sites",
+     "mandatory": false
+    },
+    {
+     "label": "Elements of local art, architecture, or cultural heritage are used in the hotel's operations, design, decoration, food, or shops",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (the facility is not affiliated with, nor within proximity to, culturally or historically sensitive sites)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-19",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "19",
+   "text": "Which materials/supplies that no longer meet guest standards are collected and donated to local charitable organizations on a regular basis? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Linens/towels",
+     "mandatory": false
+    },
+    {
+     "label": "Mattresses/furniture/soft furnishings (drapes, cushions, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "Electronics (TVs, printers, fridges, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-20",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "20",
+   "text": "Has a charitable fund been established to provide regular financial support to various environmental or social community development organizations and community events?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-21",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "21",
+   "text": "How does the hotel provide support for protection of areas of high biodiversity value? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Monetary support (donations)",
+     "mandatory": false
+    },
+    {
+     "label": "In-kind support (pro-bono)",
+     "mandatory": false
+    },
+    {
+     "label": "Volunteer hours",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-22",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "22",
+   "text": "Are employees given the opportunity to volunteer their time and services towards various environmental or social community development events and campaigns during regular working hours? (i.e. education, training, health, or sanitation?)",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-23",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "23",
+   "text": "Which of the following employee engagement initiatives (lunch & learns, challenges, focus-weeks, prizes, etc.) does the hotel run to encourage climate action and responsible behaviors?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Lighting and equipment switch-off",
+     "mandatory": false
+    },
+    {
+     "label": "Recycling/Zero-waste",
+     "mandatory": false
+    },
+    {
+     "label": "Paper use reduction",
+     "mandatory": false
+    },
+    {
+     "label": "Water conservation",
+     "mandatory": false
+    },
+    {
+     "label": "Bike to work",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-24",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "24",
+   "text": "Which of the following facilities/resources does the hotel provide to encourage employees to favor low-emission transportation in an effort to reduce transportation-related GHG Emissions?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Secure bike storage",
+     "mandatory": false
+    },
+    {
+     "label": "Change rooms / showers",
+     "mandatory": false
+    },
+    {
+     "label": "Subsidized public transit passes",
+     "mandatory": false
+    },
+    {
+     "label": "Corporate shuttle buses",
+     "mandatory": false
+    },
+    {
+     "label": "Priority/free parking for low-emission vehicles",
+     "mandatory": false
+    },
+    {
+     "label": "Electric vehicle charging",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-25",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "25",
+   "text": "Does the hotel provide electric vehicle charging stations to guests?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (hotel parking is not owned/managed by the property e.g. space is leased from another building or parking lot management company)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-26",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "26",
+   "text": "Does the hotel measure guest satisfaction, including sustainability-related aspects, and take corrective action where appropriate?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-27",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "27",
+   "text": "Does the hotel or the corporate entity report externally on its sustainability program and achievements (e.g. by publishing a Sustainability Report, integrating sustainability disclosure into Annual Report or responding to CDP, GRESB, or other Framework)?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-28",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "28",
+   "text": "What percentage of employees are paid at least a living wage? Please include all full time and part time employees.",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "100%",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-29",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "29",
+   "text": "Which of the following pay equity/equality practices are in place?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Equal pay for equal work is guaranteed for all similar positions",
+     "mandatory": false
+    },
+    {
+     "label": "Pay equity has been assessed",
+     "mandatory": false
+    },
+    {
+     "label": "Pay equity is guaranteed for positions with similar value",
+     "mandatory": false
+    },
+    {
+     "label": "No pay equity or equality initiatives are in place",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-30",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "30",
+   "text": "What types of training and growth opportunities are provided to staff?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Internal professional development training",
+     "mandatory": false
+    },
+    {
+     "label": "External professional development courses",
+     "mandatory": false
+    },
+    {
+     "label": "Indigenous Perspectives training",
+     "mandatory": false
+    },
+    {
+     "label": "Flexible work hours for those pursuing post-secondary education",
+     "mandatory": false
+    },
+    {
+     "label": "Policy to promote from within when possible",
+     "mandatory": false
+    },
+    {
+     "label": "Policy to hire locally when possible",
+     "mandatory": false
+    },
+    {
+     "label": "Job sharing and cross-job training available",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-31",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "31",
+   "text": "What percentage of employees have access to basic health care (through government or private programs)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    },
+    {
+     "label": "No health care coverage is provided",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-32",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "32",
+   "text": "What type of supplementary health benefits are provided in addition to basic health care?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Extended health (massage, physio, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "Dental",
+     "mandatory": false
+    },
+    {
+     "label": "Life insurance",
+     "mandatory": false
+    },
+    {
+     "label": "Disability insurance",
+     "mandatory": false
+    },
+    {
+     "label": "Prescription drugs",
+     "mandatory": false
+    },
+    {
+     "label": "No supplementary benefits are provided",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-33",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "33",
+   "text": "What percentage of employees have access to supplementary health benefits?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-34",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "34",
+   "text": "Which of the following initiatives are in place to promote good health and well-being for hotel staff?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Mental health coverage (E.g. benefits include Employee Assistance Programs or counselling)",
+     "mandatory": false
+    },
+    {
+     "label": "Educational programs and awareness events are hosted on topics like nutrition, mental health, substance use, etc.",
+     "mandatory": false
+    },
+    {
+     "label": "Wellness programs encourage active lifestyles (bike to work week, step challenges, running events, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-35",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "35",
+   "text": "How is information on the accessibility of the hotel made available?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Information on accessibility of the building is clearly posted on our website",
+     "mandatory": false
+    },
+    {
+     "label": "Information on accessibility of the building is readily available upon request (standard information document)",
+     "mandatory": false
+    },
+    {
+     "label": "No formal information is available",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-36",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "36",
+   "text": "Which of the following initiatives are in place to promote diversity, equity, and inclusion (DEI)?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Educational training for all managerial employees on DEI",
+     "mandatory": false
+    },
+    {
+     "label": "Educational training for all non-managerial employees on DEI",
+     "mandatory": false
+    },
+    {
+     "label": "We conduct \"blind\" reviews of resumes and applications to limit unconscious bias",
+     "mandatory": false
+    },
+    {
+     "label": "Our commitment to diversity is posted on our website",
+     "mandatory": false
+    },
+    {
+     "label": "Our commitment to diversity is shared on all job postings",
+     "mandatory": false
+    },
+    {
+     "label": "Job postings are shared with at least two unique organizations beyond standard job posting sites (Friendship Centers, Disability Resource Centers, Indigenous Job Boards, Newcomer Job Boards)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-37",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "37",
+   "text": "Which of the following actions have been taken to promote reconciliation with Indigenous Peoples / Native Americans?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "A commitment from leadership to meaningful action towards reconciliation",
+     "mandatory": false
+    },
+    {
+     "label": "Hotel management has an active relationship with the local Indigenous Peoples/Native Americans",
+     "mandatory": false
+    },
+    {
+     "label": "Education on the local history of Indigenous Peoples/Native Americans is provided to all staff. This may include but is not limited to the history of residential schools, the United Nations Declaration of the Rights of Indigenous Peoples, treaties, and laws.",
+     "mandatory": false
+    },
+    {
+     "label": "Local Indigenous Peoples/Native Americans have equitable access to jobs, training and procurement within the hotel.",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    },
+    {
+     "label": "N/A",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CORP-38",
+   "kpa": "CORP",
+   "kpaLabel": "Corporate Environmental Management",
+   "n": "38",
+   "text": "The hotel has an active training, reporting and response plan for identifying, addressing and preventing human trafficking.",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-1",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "1",
+   "text": "Is there a formal program in place which allows guests to opt out of housekeeping (i.e: reuse linens and/or towels)?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-2",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "2",
+   "text": "Are standard set-points used for all guest room thermostats and communicated to Housekeeping staff?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Set point relevant to the region's climate, (e.g. 75-77°F / 24-25°C in summer; 68°F / 20°C in winter)",
+     "mandatory": true
+    },
+    {
+     "label": "Set to lower to 60°F / 16°C when space is typically unoccupied (manual or automated)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (e.g. no HVAC systems or window/wall units, building is 'open-air', etc.) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-3",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "3",
+   "text": "Are motion sensors or timers installed in housekeeping closets to ensure that lights are turned off?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-4",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "4",
+   "text": "Are housekeeping staff trained to use natural light when cleaning guestrooms?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-5",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "5",
+   "text": "When leaving guestrooms, are housekeeping staff trained to open or close blinds and drapes according to the heating/cooling needs of the room? E.g. close blinds/drapes on hot, sunny days to help keep room cool.",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-6",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "6",
+   "text": "Are housekeepers trained to ensure windows and external doors are closed when heating or cooling systems are in use?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (e.g. no HVAC systems or window/wall units, building is 'open-air', etc.) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-7",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "7",
+   "text": "Are housekeepers trained to check that lights, radios, and televisions are turned off in unoccupied rooms?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-8",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "8",
+   "text": "How are guest refrigerators and mini-bars maintained? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Checked for leaks in the door seals",
+     "mandatory": false
+    },
+    {
+     "label": "Maintained by dusting the refrigeration coils",
+     "mandatory": false
+    },
+    {
+     "label": "Defrosted and/or self defrosting",
+     "mandatory": false
+    },
+    {
+     "label": "Refrigerators and mini-bars are unplugged in guest rooms that are not in use for more than one week",
+     "mandatory": false
+    },
+    {
+     "label": "No maintenance program for guest refrigerators and mini-bars",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no refrigerators or mini-bars in guest rooms)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-9",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "9",
+   "text": "Are toilet paper rolls used to the end or if not, are unused rolls collected for reuse in staff and/or public washrooms, donated or given to staff?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-9a",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "9a",
+   "text": "Toilet paper and paper towel have post-consumer recycled content (PCR) of:",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25% PCR",
+     "mandatory": false
+    },
+    {
+     "label": "FSC Certified",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49% PCR",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74% PCR",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99% PCR",
+     "mandatory": false
+    },
+    {
+     "label": "100% Tree-free (wheat sheet, sugar sheet, etc.) or 100% PCR",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-10",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "10",
+   "text": "Are all usable bathroom amenities (e.g. bars of soap, individual shampoos, etc.) collected for donation to various charities and/or staff?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-11",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "11",
+   "text": "Are in-room recycling options (for metal, glass, paper and plastic) and instructions made available to guests?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "No recycling program in place",
+     "mandatory": false
+    },
+    {
+     "label": "No in-room recycling bins, but Housekeeping staff or local recycling facility always sort recyclables from waste for proper disposal",
+     "mandatory": false
+    },
+    {
+     "label": "Recycling bins are available in most guestrooms",
+     "mandatory": false
+    },
+    {
+     "label": "Recycling bins are available in all guestrooms",
+     "mandatory": false
+    },
+    {
+     "label": "Recycling bins are available in all guestrooms and are clearly labeled with list of acceptable items",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-12",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "12",
+   "text": "Are amenities (soap, shampoo, conditioner etc.) provided in the guest bathrooms in refillable bulk dispensers?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "Not permitted",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-13",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "13",
+   "text": "Guestroom amenities are: (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Cruelty free / not tested on animals",
+     "mandatory": false
+    },
+    {
+     "label": "Biodegradable",
+     "mandatory": false
+    },
+    {
+     "label": "Third-party certified (e.g. EcoLogo, Green Seal, etc.) (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "Packaging is recyclable or biodegradable",
+     "mandatory": false
+    },
+    {
+     "label": "Locally made (within 50 miles / 80 km)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-14",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "14",
+   "text": "Spa amenities are: (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Cruelty free / not tested on animals",
+     "mandatory": false
+    },
+    {
+     "label": "Biodegradable",
+     "mandatory": false
+    },
+    {
+     "label": "Third-party certified (e.g. EcoLogo, Green Seal, etc.) (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "Packaging is recyclable or biodegradable",
+     "mandatory": false
+    },
+    {
+     "label": "Locally made (within 50 miles / 80 km)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (No spa or spa is not operated/managed by the hotel)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-15",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "15",
+   "text": "What percentage of pressurized aerosol products have been replaced with hand pump dispensers refilled from bulk/concentrated solutions?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "100% - Aerosols are not used",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-16",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "16",
+   "text": "Are environmentally friendly alternatives to pesticides/insecticides used in guest rooms?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no pest/insect control)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-17",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "17",
+   "text": "Are pesticides/insecticides only applied by trained/licensed staff or licensed contractors?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no pest/insect control)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-18",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "18",
+   "text": "What percentage of cleaning products are eco-friendly (biodegradable, vegetable-based, non-toxic alternatives and/or third-party certified e.g. EcoLogo, etc.)? (must select at least one of the following)",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": true
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-19",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "19",
+   "text": "Do you have a policy and procedure in place concerning the proper handling and disposal of cleaning supplies and medical waste such as cleaning chemicals, needles, medications, etc.?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-20",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "20",
+   "text": "Are housekeeping staff trained to minimize water use when cleaning (e.g. avoid running the tap/shower, limit number of toilet flushes, etc.)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-21",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "21",
+   "text": "Are housekeepers trained to report faulty equipment (e.g. windows that don't close, broken lights, running toilets, dripping faucets, leaking equipment, etc.) to the Maintenance department?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-22",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "22",
+   "text": "Are synthetic/artificial perfumes and air fresheners used in hallways, guestrooms and public areas?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-23",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "23",
+   "text": "Are there written procedures in place that allow housekeeping staff to report actions that may impact the environment and to share their ideas on eliminating those impacts?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-24",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "24",
+   "text": "Are housekeeping staff provided with energy-efficient cleaning equipment (e.g. vacuums, steam cleaners) and trained to select \"right-sized\" equipment to minimize resource use?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-25",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "25",
+   "text": "If using off-site laundry/dry cleaning facilities, are the environmental impacts (e.g. packaging take-back, chemical use, etc.) considered when selecting off-site providers?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (off-site laundry/dry-cleaning not used)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-26",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "26",
+   "text": "If using on-site laundry/dry cleaning facilities, are the environmental impacts (e.g. selecting energy and water-efficient equipment, cleaning in cold water, minimizing detergent and chemical use, etc.) considered in the laundry operations?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no on-site laundry)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-27",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "27",
+   "text": "Does the hotel have a policy to consolidate occupied guestrooms and close floors when occupancy permits (e.g. low occupancy periods)?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (i.e. single floor hotel or hotel is comprised of chalets/cottages only) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "HK-28",
+   "kpa": "HK",
+   "kpaLabel": "Housekeeping",
+   "n": "28",
+   "text": "Bonus Innovation Point: Have you implemented any innovative activities/procedures in the area of Housekeeping that have not been covered in this section? If 'Yes', you are required to describe the activity or the point will be deducted. You may also be contacted and asked to provide documented proof.",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes (please describe the initiative in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-1",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "1",
+   "text": "How is the HVAC system in the meeting and conference area controlled?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "A programmable energy management system which automatically controls the temperature in occupied/unoccupied rooms",
+     "mandatory": false
+    },
+    {
+     "label": "Programmable thermostat(s) set to function schedules",
+     "mandatory": false
+    },
+    {
+     "label": "Employees are trained and responsible for turning HVAC systems on/off when necessary",
+     "mandatory": false
+    },
+    {
+     "label": "The HVAC system is not controlled separately for this area (no HVAC controls exist)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-2",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "2",
+   "text": "How does the hotel reduce energy demand from lighting in conference/meeting rooms? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Programmed control (or according to event schedule)",
+     "mandatory": false
+    },
+    {
+     "label": "Specific staff asked to turn lights on and off in a timely manner",
+     "mandatory": false
+    },
+    {
+     "label": "Use of motion sensors and timers to control lighting",
+     "mandatory": false
+    },
+    {
+     "label": "Dimmer controls in meeting rooms",
+     "mandatory": false
+    },
+    {
+     "label": "Natural lighting used more than half the time",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-3",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "3",
+   "text": "Are different functions deliberately scheduled to take place in rooms served by the same HVAC systems so as to maximize space heating and cooling efficiency?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (single meeting/event space)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-4",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "4",
+   "text": "Are ceiling fans used to replace air conditioning or mechanical ventilation in all meeting rooms and/or ballrooms?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-5",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "5",
+   "text": "Are draperies and shades kept closed in unoccupied function rooms?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no windows)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-6",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "6",
+   "text": "Are your hotel's internal environmental policies, programs and features (e.g. resource saving programs, green building certifications, targets, etc.) communicated to meeting planners and guests before or during events?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes, always",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "Only when requested",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-7",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "7",
+   "text": "Is information provided to meeting planners on how to reduce the environmental impact of the meeting or event (e.g. local food choices, no bottled water or disposable coffee cups, reusable name tags, schedule communicated electronically to attendees, etc.)?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "Only when requested",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-8",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "8",
+   "text": "Is information provided to meeting planners on low-emissions transportation to your location (bike parking, public transit, EV charging, car sharing, etc.)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes, always",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "Only when requested",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-9",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "9",
+   "text": "Meeting rooms are equipped with the following recycling bins: (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Paper",
+     "mandatory": false
+    },
+    {
+     "label": "Aluminum",
+     "mandatory": false
+    },
+    {
+     "label": "Glass",
+     "mandatory": false
+    },
+    {
+     "label": "Plastics",
+     "mandatory": false
+    },
+    {
+     "label": "Organics",
+     "mandatory": false
+    },
+    {
+     "label": "Hard to recycle items (pens, attendee badges)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-10",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "10",
+   "text": "Does the hotel have a policy requiring event planners to take back any marketing materials (e.g. banners, signage, giveaways, etc.)?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-11",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "11",
+   "text": "Are plated meals encouraged instead of buffet service to reduce food waste?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "Only when requested",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-12",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "12",
+   "text": "Are food scraps from conference and meetings services diverted from the regular waste stream and composted?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-13",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "13",
+   "text": "Are plant-based and low-carbon protein menu options offered?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes, always",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-14",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "14",
+   "text": "What percentage of individual servings (butter, jams, creamers, juice, cereal, etc.) from conference and meetings services have been replaced with bulk purchases served in reusable containers?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-15",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "15",
+   "text": "Which of the following items are purchased with a minimum of 50% post-consumer recycled content? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Folios/bags",
+     "mandatory": false
+    },
+    {
+     "label": "Napkins",
+     "mandatory": false
+    },
+    {
+     "label": "Posters/banners",
+     "mandatory": false
+    },
+    {
+     "label": "Stationery (notepads, flipcharts, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-16",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "16",
+   "text": "What other waste reduction practices are in place? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Conference schedule, menus, contracts, etc. communicated electronically to meeting planner",
+     "mandatory": false
+    },
+    {
+     "label": "Reusable white boards or Smart Boards are available, eliminating the need for flip charts",
+     "mandatory": false
+    },
+    {
+     "label": "Reusable linen napkins",
+     "mandatory": false
+    },
+    {
+     "label": "Paper napkins are composted",
+     "mandatory": false
+    },
+    {
+     "label": "Decorative centerpieces are reused or donated to staff, charity, etc.",
+     "mandatory": false
+    },
+    {
+     "label": "Plastic water bottles and aluminum cans are eliminated by using water refill stations/pitchers and/or fountain drinks",
+     "mandatory": false
+    },
+    {
+     "label": "Single-use coffee cups are eliminated by using ceramic mugs or encouraging attendees to bring their own travel mug",
+     "mandatory": false
+    },
+    {
+     "label": "Water-based markers and pens are provided instead of permanent ink markers",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "CONF-17",
+   "kpa": "CONF",
+   "kpaLabel": "Conference & Meeting Services",
+   "n": "17",
+   "text": "Are conference/meeting attendees educated (information, interpretation and appropriate behavior) about local ecosystems, culture, hiking trails, heritage sites, parks, native species, etc. while at your facility?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes, always",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "Only when requested",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-1",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "1",
+   "text": "Are ceiling fans installed in all dining rooms, lounges, etc?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-2",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "2",
+   "text": "Are there flexible light switching arrangements (i.e. sectional controls) in seating areas and is restaurant seating done section by section?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (dining area too small to support sectional seating e.g. B&B) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-3",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "3",
+   "text": "Are dimmer controls used in dining areas?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-4",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "4",
+   "text": "The following procedures for kitchen appliances/equipment are used: (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Appliances/equipment are regularly cleaned and serviced (including air filters, air ducts, fans and burners)",
+     "mandatory": false
+    },
+    {
+     "label": "A regular schedule of equipment turn on/off has been established",
+     "mandatory": false
+    },
+    {
+     "label": "Timers are installed on hood fans, exhaust systems, and/or hood lights",
+     "mandatory": false
+    },
+    {
+     "label": "Exhaust fans are sized to meet code requirements (i.e. not oversized) and regularly cleaned",
+     "mandatory": false
+    },
+    {
+     "label": "Heat exchange systems are installed to capture heat and exhausted air",
+     "mandatory": false
+    },
+    {
+     "label": "Dishwashers have built-in hot water boosters",
+     "mandatory": false
+    },
+    {
+     "label": "Dishwashers are always filled to capacity",
+     "mandatory": false
+    },
+    {
+     "label": "Hot water tanks are flushed at least every six months",
+     "mandatory": false
+    },
+    {
+     "label": "Cooking equipment pre-heating periods are minimized/optimized",
+     "mandatory": false
+    },
+    {
+     "label": "Control technologies are used to maintain a correct gas/air ratio in gas stoves",
+     "mandatory": false
+    },
+    {
+     "label": "When feasible, foods are cooked in smaller or more efficient ovens instead of conventional ovens",
+     "mandatory": false
+    },
+    {
+     "label": "Higher energy efficiency appliances (i.e. Energy Star/Energuide certified) and/or equipment have been purchased during the past 12 months",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-5",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "5",
+   "text": "Which measures are taken to minimize opening and closing times and reach-ins for walk-in freezer/refrigerator doors? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Doors automatically close to reduce escaped cooling",
+     "mandatory": false
+    },
+    {
+     "label": "Open-door buzzers installed on walk-in doors to alert users",
+     "mandatory": false
+    },
+    {
+     "label": "No specific action taken",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no walk-in freezer/refrigerator)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-5a",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "5a",
+   "text": "What type of cooling systems are used for the walk-in fridges and freezers?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Air-cooled",
+     "mandatory": false
+    },
+    {
+     "label": "Water-cooled (once-through)",
+     "mandatory": false
+    },
+    {
+     "label": "Both air-cooled and water-cooled (once-through)",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no walk in coolers)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-6",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "6",
+   "text": "Which measures are taken to minimize energy loss for loading docks? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Efficiency optimized through co-ordinated deliveries",
+     "mandatory": false
+    },
+    {
+     "label": "Self-closing doors, vinyl air curtains or air blowers installed to control air flow",
+     "mandatory": false
+    },
+    {
+     "label": "No specific action taken",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no loading dock)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-7",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "7",
+   "text": "Are freezer/refrigeration motors, thermometers, and other equipment regularly checked, serviced, and defrosted?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-8",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "8",
+   "text": "Tap water consumption levels are reduced through: (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Use of flow controllers (i.e. tap aerators)",
+     "mandatory": false
+    },
+    {
+     "label": "Use of foot pedals for kitchen staff",
+     "mandatory": false
+    },
+    {
+     "label": "Use of electronic photocells on taps",
+     "mandatory": false
+    },
+    {
+     "label": "Awareness program/training session",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-9",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "9",
+   "text": "Are kitchen employees trained to implement alternatives to thawing frozen food under running water?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-10",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "10",
+   "text": "What percentage of products are purchased in bulk (where appropriate) to reduce cost, packaging, and waste disposal fees?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-11",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "11",
+   "text": "Which of the following recycled paper (minimum 50% post-consumer recycled content) products are used in the kitchen, restaurant, and/or lounges? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Napkins (containing 50% post-consumer recycled content OR are linen/cloth)",
+     "mandatory": false
+    },
+    {
+     "label": "Menus",
+     "mandatory": false
+    },
+    {
+     "label": "Drink coasters (containing 50% post-consumer recycled content OR are a reusable material such as leather, stone, plastic, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "Paper towels",
+     "mandatory": false
+    },
+    {
+     "label": "Waiter scratch pads",
+     "mandatory": false
+    },
+    {
+     "label": "Memos/checklists",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-11a",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "11a",
+   "text": "Are cash register tape, bills and receipts 100% recyclable (phenol, BPA and BPS free) and are recycled?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-12",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "12",
+   "text": "Which of the following non-paper products with recycled content (minimum 50%) are used? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Storage containers",
+     "mandatory": false
+    },
+    {
+     "label": "Equipment",
+     "mandatory": false
+    },
+    {
+     "label": "Wall decor",
+     "mandatory": false
+    },
+    {
+     "label": "Serving products",
+     "mandatory": false
+    },
+    {
+     "label": "Utensils",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-13",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "13",
+   "text": "What type of take-out containers are provided?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Reusable (stainless steel, glass)",
+     "mandatory": false
+    },
+    {
+     "label": "Fiber-based / paper (compostable)",
+     "mandatory": false
+    },
+    {
+     "label": "Recyclable hard plastics",
+     "mandatory": false
+    },
+    {
+     "label": "Aluminum (recyclable)",
+     "mandatory": false
+    },
+    {
+     "label": "Compostable plastics",
+     "mandatory": false
+    },
+    {
+     "label": "Non-recyclable plastics",
+     "mandatory": false
+    },
+    {
+     "label": "Styrofoam",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no take-out containers)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-14",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "14",
+   "text": "Are non-essential single-use products (straws, stir sticks) offered?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes - plastic products",
+     "mandatory": false
+    },
+    {
+     "label": "Yes - only compostable options (paper, pasta, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "Only upon request (must be paper or reusable)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-14a",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "14a",
+   "text": "Are single-use plastics (shrink wrap, ziploc bags) used for kitchen portioning or to cover food?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-15",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "15",
+   "text": "Which of the following individual servings have been replaced by bulk food items served in reusable containers? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Sugar packages",
+     "mandatory": false
+    },
+    {
+     "label": "Creamers",
+     "mandatory": false
+    },
+    {
+     "label": "Condiments (e.g. ketchup, mustard)",
+     "mandatory": false
+    },
+    {
+     "label": "Salt and pepper",
+     "mandatory": false
+    },
+    {
+     "label": "Yogurt",
+     "mandatory": false
+    },
+    {
+     "label": "Cereals",
+     "mandatory": false
+    },
+    {
+     "label": "Jams / nut butters",
+     "mandatory": false
+    },
+    {
+     "label": "Wrapped butter pats",
+     "mandatory": false
+    },
+    {
+     "label": "Guestroom beverages",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-16",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "16",
+   "text": "Is food storage being maximized to reduce order frequency (dry storage and refrigerator/freezer space)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-17",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "17",
+   "text": "What is done with surplus food items (i.e. buffet/coffee break leftovers)? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Disposed of in the regular waste stream",
+     "mandatory": false
+    },
+    {
+     "label": "Provided to staff for consumption",
+     "mandatory": false
+    },
+    {
+     "label": "Composted",
+     "mandatory": false
+    },
+    {
+     "label": "Donated to charitable agencies/food banks/farmers to use as animal feed, etc.",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-18",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "18",
+   "text": "Are untouched food items (i.e. unopened and not likely to be used for guest consumption) collected and donated to food banks and other charitable organizations on a regular basis (if permitted by local regulation)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "Not permitted",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-19",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "19",
+   "text": "Are organic wastes separated from the regular waste stream and composted internally or externally?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-20",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "20",
+   "text": "Does your hotel consistently purchase food/beverages that comes from locally grown (i.e. 200 miles/322 km or less), organically produced and/or fair trade sources?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-20a",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "20a",
+   "text": "What is the percentage of locally grown/organically produced/fair trade items offered?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-20b",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "20b",
+   "text": "Is the purchase and use of locally grown/organically produced/fair trade foods communicated on guest menus?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-21",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "21",
+   "text": "Which of the following are found on the property? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Herb / vegetable garden",
+     "mandatory": false
+    },
+    {
+     "label": "Apiary / Beehive",
+     "mandatory": false
+    },
+    {
+     "label": "On-site composter / digester",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-22",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "22",
+   "text": "What percentage of product packaging is returned to the supplier (glass bottles, bread boxes, produce cases, cardboard boxes, wood pallets, etc.)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-23",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "23",
+   "text": "What percentage of product packaging is reused internally (e.g. glass bottles and jars used for \"homemade\" pickling/jams, plastic for garbage disposal, boxes/cases used for transport or storage of items, etc.)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-24",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "24",
+   "text": "What percentage of product packaging is recycled?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-25",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "25",
+   "text": "What percentage of pressurized aerosol products have been replaced with hand pump dispensers refilled from bulk/concentrated solutions?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-26",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "26",
+   "text": "Are cooking grease/oils separated and disposed of/recycled as special waste?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes, to be used as biofeed or biofuel",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-27",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "27",
+   "text": "Are grease traps regularly treated with a biodegradable trap cleaner?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no grease trap)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-28",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "28",
+   "text": "Is there a plan in place to phase out ozone-depleting substances such as CFCs and HCFCs from refrigeration equipment?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (purchased new after 2013)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-29",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "29",
+   "text": "Are chemical insecticides used in restaurant and food service areas?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "Yes, but only when necessary",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-30",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "30",
+   "text": "Are chemical rodenticides used in restaurant and food service areas?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "Yes, but only when necessary",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-31",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "31",
+   "text": "Are pesticides only applied by trained/licensed staff or licensed contractors?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-32",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "32",
+   "text": "Are regular food audits performed in order to help in the reduction of food waste from purchasing through serving?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-32a",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "32a",
+   "text": "What practices have been adopted to minimize food waste?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Ordering only the necessary quantity of ingredients",
+     "mandatory": false
+    },
+    {
+     "label": "Practicing \"first in, first out\": using oldest ingredients before newer ones",
+     "mandatory": false
+    },
+    {
+     "label": "Examine incoming produce orders and use substandard items first",
+     "mandatory": false
+    },
+    {
+     "label": "Prepping only what is necessary",
+     "mandatory": false
+    },
+    {
+     "label": "Proper food storage to minimize spoilage",
+     "mandatory": false
+    },
+    {
+     "label": "Menu is designed to use some ingredients more than once",
+     "mandatory": false
+    },
+    {
+     "label": "Offering specials to use up perishable ingredients (soups, etc.)",
+     "mandatory": false
+    },
+    {
+     "label": "Kitchen staff are mindful of portion sizes",
+     "mandatory": false
+    },
+    {
+     "label": "Staff meals are provided using leftover ingredients",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "FB-33",
+   "kpa": "FB",
+   "kpaLabel": "Food & Beverage",
+   "n": "33",
+   "text": "Bonus Innovation Point: Have you implemented any innovative practices to reduce the impact of Food & Beverage services that have not been covered in this section? If 'Yes', you are required to describe the activity or the point will be deducted. You may also be contacted and asked to provide documented proof.",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": true,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes (please describe the initiative in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-1",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "1",
+   "text": "Performance audits have been carried out in the past three years to identify opportunities for improvements relating to: (select all that apply)",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Energy consumption",
+     "mandatory": false
+    },
+    {
+     "label": "Water consumption",
+     "mandatory": false
+    },
+    {
+     "label": "Waste streams",
+     "mandatory": false
+    },
+    {
+     "label": "Greenhouse gas (GHG) emissions",
+     "mandatory": false
+    },
+    {
+     "label": "Audits have not been performed in the past three years",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (Select only if the property has been in operation for less than 12 months)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-2",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "2",
+   "text": "Has building re-commissioning been undertaken in the past 3 years to improve the operation and maintenance of buildings systems (e.g. mechanical equipment, lighting & building control systems)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (Select only if the property has been in operation for less than 12 months OR if the property is part of a multi-use facility and does not have input into management/purchasing of these systems) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-3",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "3",
+   "text": "With respect to the monitoring and management of greenhouse gas (GHG) emissions, please select all that apply:",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "GHGs measured on at least an annual basis",
+     "mandatory": false
+    },
+    {
+     "label": "GHGs are reported externally",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-3a",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "3a",
+   "text": "In addition to mandatory scope 1 and 2 emissions, which of the following scope 3 emissions are included in greenhouse gas reporting?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Business Travel",
+     "mandatory": false
+    },
+    {
+     "label": "Waste",
+     "mandatory": false
+    },
+    {
+     "label": "Paper",
+     "mandatory": false
+    },
+    {
+     "label": "Staff Commuting",
+     "mandatory": false
+    },
+    {
+     "label": "Water",
+     "mandatory": false
+    },
+    {
+     "label": "Laundry",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-3b",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "3b",
+   "text": "A greenhouse gas (GHG) emissions reduction target has been set.",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "A short-term reduction target has been set",
+     "mandatory": false
+    },
+    {
+     "label": "A net zero by 2050 target has been set",
+     "mandatory": false
+    },
+    {
+     "label": "No GHG reduction target has been set",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-3c",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "3c",
+   "text": "Are greenhouse gas (GHG) emissions intensity metrics being monitored? (e.g. tCO2e/room night, tCO2e/sq ft)",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-3d",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "3d",
+   "text": "Are greenhouse gas (GHG) emissions offset annually through the purchase of verified carbon offsets?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "All scope 1 and 2 emissions are offset",
+     "mandatory": false
+    },
+    {
+     "label": "All scope 3 emissions are offset",
+     "mandatory": false
+    },
+    {
+     "label": "No emissions are offset",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-4",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "4",
+   "text": "Are annual use and costs of electricity being measured and tracked?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-5",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "5",
+   "text": "Are annual use and costs of natural gas being measured and tracked?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (Select only if natural gas is not used at the property)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-6",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "6",
+   "text": "Are annual use and costs of propane being measured and tracked?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (Select only if propane is not used at the property)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-7",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "7",
+   "text": "Are annual use and costs of gasoline being measured and tracked?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (Select only if gasoline is not used at the property)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-8",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "8",
+   "text": "Are annual use and costs of diesel fuel being measured and tracked?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (Select only if diesel fuel is not used at the property)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-9",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "9",
+   "text": "Are annual use and costs of purchased steam being measured and tracked?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (Select only if purchased steam is not used at the property)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-10",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "10",
+   "text": "Are annual use and costs of wood being measured and tracked?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (Select only if wood is not used at the property)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-11",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "11",
+   "text": "Are annual use and costs of water being measured and tracked?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-12",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "12",
+   "text": "Are annual waste disposal quantities and costs being measured and tracked? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Materials sent to recycling",
+     "mandatory": false
+    },
+    {
+     "label": "Organics, composted in municipal or on-site systems",
+     "mandatory": false
+    },
+    {
+     "label": "Waste sent to landfill",
+     "mandatory": false
+    },
+    {
+     "label": "Hazardous waste disposal",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-13",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "13",
+   "text": "Is energy consumption sub-metered in various hotel areas (food and beverage areas, guest rooms, fitness facility, public spaces, etc.)?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (Select only if the facility's size does not support need to sub-meter e.g. Bed & Breakfast) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-14",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "14",
+   "text": "Is water consumption sub-metered in various hotel areas (food and beverage areas, guest rooms, fitness facility, landscaping/ groundskeeping, etc.)?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (Select only if the facility's size does not support need to sub-meter e.g. Bed & Breakfast) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-15",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "15",
+   "text": "Is there a regularly scheduled (i.e. at least once a year) preventative maintenance program in place that ensures routine maintenance and adjustments are made to the following? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Heating and cooling systems",
+     "mandatory": true
+    },
+    {
+     "label": "Ventilation systems",
+     "mandatory": true
+    },
+    {
+     "label": "Plumbing (toilets, faucets)",
+     "mandatory": true
+    },
+    {
+     "label": "Lighting upgrades",
+     "mandatory": true
+    },
+    {
+     "label": "There is no preventative maintenance program in place",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-16",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "16",
+   "text": "Is indoor air quality monitored (e.g. through the measurement of air exchanges per hour, etc.)?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-17",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "17",
+   "text": "Rather than running HVAC (Heating, Ventilation, and Air Conditioning) systems continuously, which of the following practices/modifications have been made to improve energy efficiency? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Scheduled checks by trained personnel",
+     "mandatory": false
+    },
+    {
+     "label": "Control systems (e.g. timers, motion sensors)",
+     "mandatory": false
+    },
+    {
+     "label": "Variable speed drives",
+     "mandatory": false
+    },
+    {
+     "label": "Heating and/or cooling levels are set by a computer control system",
+     "mandatory": false
+    },
+    {
+     "label": "No practices/modifications in place",
+     "mandatory": true
+    }
+   ]
+  },
+  {
+   "id": "ENG-18",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "18",
+   "text": "Which of the following advanced technologies have been incorporated into building design and/or renewal? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Waste-heat recovery",
+     "mandatory": false
+    },
+    {
+     "label": "Co-generation",
+     "mandatory": false
+    },
+    {
+     "label": "High efficiency, low-NOx emitting boilers",
+     "mandatory": false
+    },
+    {
+     "label": "Building Automation Systems",
+     "mandatory": false
+    },
+    {
+     "label": "Displacement ventilation (room air distribution strategy where cool, clean air is supplied at floor level and extracted above)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-19",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "19",
+   "text": "What percentage of the roof area employs a green roof or uses high albedo (solar reflective) materials?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (select only if located in a climate/elevation where the number of days requiring heat vastly outnumber the days requiring cooling) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-20",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "20",
+   "text": "Which of the following on-site (or local) renewable energy source(s) is the hotel using to augment conventional electricity supplies or sell into the grid?",
+   "format": "Checkbox",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Geothermal",
+     "mandatory": false
+    },
+    {
+     "label": "Wind",
+     "mandatory": false
+    },
+    {
+     "label": "Solar",
+     "mandatory": false
+    },
+    {
+     "label": "Biomass",
+     "mandatory": false
+    },
+    {
+     "label": "Bio-gas",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-20a",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "20a",
+   "text": "Are annual use and costs of energy from renewable sources being measured and tracked?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (Select only if energy from renewable sources is not used at the property)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-21",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "21",
+   "text": "What percentage of renewable energy certificates (RECs) is purchased to supply a portion of the hotel's energy needs?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "100%",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-22",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "22",
+   "text": "Which of the following insulation measures have been taken? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "All doors and windows are properly weather stripped and/or caulked",
+     "mandatory": true
+    },
+    {
+     "label": "Entry doors are revolving or kept closed",
+     "mandatory": true
+    },
+    {
+     "label": "Air ducts are sealed and insulated",
+     "mandatory": false
+    },
+    {
+     "label": "Gasket insulators are installed on exterior wall outlets and switches",
+     "mandatory": false
+    },
+    {
+     "label": "Self-closing doors, vinyl curtains and/or air blowers are installed on loading dock doors",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (select only if climate does not support the need for such measures e.g. tropical, 'open-air' building) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-23",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "23",
+   "text": "Which of the following features have been installed on windows to reduce solar energy gains? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Blinds, curtains or shutters",
+     "mandatory": true
+    },
+    {
+     "label": "Awnings",
+     "mandatory": false
+    },
+    {
+     "label": "External shades",
+     "mandatory": false
+    },
+    {
+     "label": "Automated blinds",
+     "mandatory": false
+    },
+    {
+     "label": "Fritting",
+     "mandatory": false
+    },
+    {
+     "label": "Spectrally selective coating on windows",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (select only if located in a climate/elevation where solar energy gains are sought to support heating requirements because number of days requiring heating vastly outnumber days requiring cooling) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-24",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "24",
+   "text": "Are water heaters and boilers newer, high-efficiency models (e.g., indirect gas-fired), or, if older models, do they have insulating blankets or jackets?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-25",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "25",
+   "text": "Does the hotel have comprehensive maintenance programs in place for all its vehicles to ensure proper functioning, fuel efficiency and decreased environmental impact?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no vehicles)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-26",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "26",
+   "text": "The equipment used for grounds lawn mowing is:",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Gasoline powered",
+     "mandatory": false
+    },
+    {
+     "label": "Diesel powered",
+     "mandatory": false
+    },
+    {
+     "label": "Gasoline/diesel and electric powered",
+     "mandatory": false
+    },
+    {
+     "label": "Electric",
+     "mandatory": false
+    },
+    {
+     "label": "Manual/push mowers/rakes",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no landscaping)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-27",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "27",
+   "text": "What type of automatic controls are used in irrigation to avoid over-watering? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Weather/moisture/rain sensors",
+     "mandatory": false
+    },
+    {
+     "label": "Timers",
+     "mandatory": false
+    },
+    {
+     "label": "No automatic controls are in place",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no landscaping)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-28",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "28",
+   "text": "Does the irrigation system use non-potable water?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no landscaping)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-29",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "29",
+   "text": "Are organic rather than chemical fertilizers used on hotel grounds?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no landscaping)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-30",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "30",
+   "text": "Has an integrated pest management (IPM) program (consisting of a pest strategy that utilizes a variety of complementary techniques such as growing practices, life cycle analysis, chemical management, avoiding the introduction of invasive alien species, and others) been implemented for gardens and landscaping on hotel grounds?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no landscaping)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-31",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "31",
+   "text": "Are native plants and trees (drought tolerant) used for landscaping and restoration wherever feasible, particularly in natural landscapes?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no landscaping)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-31a",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "31a",
+   "text": "Are actions taken to ensure invasive species are not introduced or spread on the property?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no landscaping)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-32",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "32",
+   "text": "Is the hotel aware of and working to mitigate activity with the potential to disturb wildlife and habitats?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-32a",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "32a",
+   "text": "Is compensation made where any disturbance has occurred?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-33",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "33",
+   "text": "Are elevators and/or escalators taken off-service during slow times?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (e.g. no elevators or escalators) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-34",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "34",
+   "text": "What percentage of light fixtures have been replaced with high-efficiency technology (e.g. light-emitting diodes [LED]) in the guest rooms?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-35",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "35",
+   "text": "What percentage of light fixtures have been modified or replaced with high-efficiency technology (e.g. light-emitting diodes [LED]) in public areas (lobby, hallways, pre-conference/meeting rooms, restaurants, etc.)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-36",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "36",
+   "text": "What percentage of light fixtures have been modified or replaced with high-efficiency technology (e.g. light-emitting diodes [LED]) in the back of house areas (offices, kitchens, stairwells, hallways, staff areas, etc.)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-37",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "37",
+   "text": "What percentage of lighting in the general areas use higher energy efficiency equipment (e.g. ballasts, dimmers, motion/sensor controls)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-38",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "38",
+   "text": "Which of the following are used for outdoor lighting (building exterior, signage, parking garage, and/or security lighting)? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Energy efficient light bulbs",
+     "mandatory": false
+    },
+    {
+     "label": "Photocell sensors",
+     "mandatory": false
+    },
+    {
+     "label": "Timers",
+     "mandatory": false
+    },
+    {
+     "label": "Motion detectors",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": true
+    }
+   ]
+  },
+  {
+   "id": "ENG-39",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "39",
+   "text": "Is energy efficiency taken into consideration when purchasing new appliances and equipment (e.g. Energy Star certified, EnerGuide ratings, EU Energy Label, etc.)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": true
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-40",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "40",
+   "text": "What percentage of guestrooms have been equipped with low-flow showerheads? (1.5 GPM - 2 GPM / 5.68 LPM - 7.57 LPM) (must select at least one of the following)",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": true
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-41",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "41",
+   "text": "What percentage of guestrooms have been equipped with tap aerators? (0.5 GPM, 1.9 LPM) (must select at least one of the following)",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": true
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-42",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "42",
+   "text": "What percentage of guestrooms have been equipped with low-flow toilets (1.1-1.6 gallons/4-6 liters per flush), dual-flush toilets (0.8-1.6 gallons/3-6 liters per flush), toilet dams, or tank fill diverters? (must select at least one of the following)",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": true,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": true
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-43",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "43",
+   "text": "Which of the following water conserving equipment have been installed in public washrooms? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Tap aerators",
+     "mandatory": false
+    },
+    {
+     "label": "Low-flow toilets",
+     "mandatory": false
+    },
+    {
+     "label": "Flow timers on taps",
+     "mandatory": false
+    },
+    {
+     "label": "Photoelectric cell activated control system on taps",
+     "mandatory": false
+    },
+    {
+     "label": "Photoelectric cell activated control system on urinals",
+     "mandatory": false
+    },
+    {
+     "label": "Photoelectric cell activated control system on toilets",
+     "mandatory": false
+    },
+    {
+     "label": "Dual-flush toilets",
+     "mandatory": false
+    },
+    {
+     "label": "Waterless urinals",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no public washrooms)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-44",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "44",
+   "text": "Are heating systems and/or laundry steam traps installed and maintained to reduce condensation losses?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-45",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "45",
+   "text": "Are insulation/solar blankets or liquid insulators used on pools and hot tubs to eliminate energy loss and evaporation?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (facility does not have a pool or hot tub)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-46",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "46",
+   "text": "Has a grey water recovery and reuse system that complies with local regulations been installed?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-47",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "47",
+   "text": "Which of the following water sources are used by the hotel?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Municipal",
+     "mandatory": false
+    },
+    {
+     "label": "Well",
+     "mandatory": false
+    },
+    {
+     "label": "Local water body",
+     "mandatory": false
+    },
+    {
+     "label": "Rainwater",
+     "mandatory": false
+    },
+    {
+     "label": "Imported",
+     "mandatory": false
+    },
+    {
+     "label": "Chilled",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-48",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "48",
+   "text": "Which of the following water stewardship initiatives are in place?",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "A water risk assessment has been conducted",
+     "mandatory": false
+    },
+    {
+     "label": "An action plan is in place to address water risks and conservation initiatives",
+     "mandatory": false
+    },
+    {
+     "label": "Water use per guest night or per room night is monitored and managed",
+     "mandatory": false
+    },
+    {
+     "label": "A water reduction target has been set",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-49",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "49",
+   "text": "Is a regular maintenance program for dishwashers in place to ensure that water is not wasted?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (no dishwasher(s) on site)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-50",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "50",
+   "text": "Is there a hotel recycling program in place? If so, what items does it include? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Recycling facilities are available but hotel does not recycle",
+     "mandatory": false
+    },
+    {
+     "label": "Aluminum",
+     "mandatory": false
+    },
+    {
+     "label": "Cardboard",
+     "mandatory": false
+    },
+    {
+     "label": "Clear glass",
+     "mandatory": false
+    },
+    {
+     "label": "Colored glass",
+     "mandatory": false
+    },
+    {
+     "label": "Construction/renovation waste",
+     "mandatory": false
+    },
+    {
+     "label": "Electronics",
+     "mandatory": false
+    },
+    {
+     "label": "Batteries",
+     "mandatory": false
+    },
+    {
+     "label": "Fluorescent light bulbs",
+     "mandatory": false
+    },
+    {
+     "label": "Furniture/mattresses",
+     "mandatory": false
+    },
+    {
+     "label": "Mixed metals",
+     "mandatory": false
+    },
+    {
+     "label": "Mixed paper",
+     "mandatory": false
+    },
+    {
+     "label": "Motor oil",
+     "mandatory": false
+    },
+    {
+     "label": "Newspaper",
+     "mandatory": false
+    },
+    {
+     "label": "Office paper",
+     "mandatory": false
+    },
+    {
+     "label": "Pallets",
+     "mandatory": false
+    },
+    {
+     "label": "Hard plastic",
+     "mandatory": false
+    },
+    {
+     "label": "Soft plastic",
+     "mandatory": false
+    },
+    {
+     "label": "Toner cartridges",
+     "mandatory": false
+    },
+    {
+     "label": "Other (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-51",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "51",
+   "text": "Are waste diversion rates measured and tracked?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-51a",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "51a",
+   "text": "What is the waste diversion rate at the hotel?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 94%",
+     "mandatory": false
+    },
+    {
+     "label": "Zero Waste (95%+ diversion)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-52",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "52",
+   "text": "How is battery use handled?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Rechargeable batteries are used",
+     "mandatory": false
+    },
+    {
+     "label": "Both rechargeable and disposable batteries are used",
+     "mandatory": false
+    },
+    {
+     "label": "Disposable batteries are used",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-53",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "53",
+   "text": "How is battery disposal handled?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Batteries are discarded as regular waste",
+     "mandatory": false
+    },
+    {
+     "label": "Batteries are collected for special disposal and/or recycling",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-54",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "54",
+   "text": "Is discarded furniture and equipment diverted from general waste streams and if so, how? (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Discarded furniture/equipment sent to landfill",
+     "mandatory": false
+    },
+    {
+     "label": "Donations/sales to staff",
+     "mandatory": false
+    },
+    {
+     "label": "Sold",
+     "mandatory": false
+    },
+    {
+     "label": "Scrap dealers",
+     "mandatory": false
+    },
+    {
+     "label": "Donated to local charities",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-55",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "55",
+   "text": "Does the hotel use a waste compactor or commercial bailer to reduce the volume of trash and/or recyclables at the source?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (size of facility, and therefore overall volume of trash, too small to support use of compactor e.g. B&B) (please specify in the notes section provided below)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-56",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "56",
+   "text": "What percentage of cleaning products are eco-friendly (biodegradable, vegetable-based, non-toxic alternatives and/or third-party certified e.g. EcoLogo, etc.)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-57",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "57",
+   "text": "Locations where hazardous chemicals are stored are: (select all that apply)",
+   "format": "Checkbox",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Clearly marked",
+     "mandatory": false
+    },
+    {
+     "label": "Equipped with spill containment measures",
+     "mandatory": false
+    },
+    {
+     "label": "Regularly checked for safety and leakage problems",
+     "mandatory": false
+    },
+    {
+     "label": "None of the above",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-58",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "58",
+   "text": "What percentage of paints are water based instead of oil based?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-59",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "59",
+   "text": "Does the hotel use low volatile organic compounds (VOC) paints?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes - always",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-60",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "60",
+   "text": "What is the percentage of rooms (guestrooms, bars, staff areas etc.) where smoking is allowed?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 10%",
+     "mandatory": false
+    },
+    {
+     "label": "Between 10-20%",
+     "mandatory": false
+    },
+    {
+     "label": "Between 20-40%",
+     "mandatory": false
+    },
+    {
+     "label": "Greater than 40%",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-61",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "61",
+   "text": "If smoking is allowed, are these rooms isolated (separately contained and served by an individual ventilation system) from non-smoking areas to prevent the migration of smoke - either directly or through the HVAC system?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    },
+    {
+     "label": "N/A (smoking not allowed)",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-62",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "62",
+   "text": "What percentage of windows are high-efficient models (e.g. low-e, double-paned, argon filled, Energy Star rated)?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Less than 25%",
+     "mandatory": false
+    },
+    {
+     "label": "25% - 49%",
+     "mandatory": false
+    },
+    {
+     "label": "50% - 74%",
+     "mandatory": false
+    },
+    {
+     "label": "75% - 99%",
+     "mandatory": false
+    },
+    {
+     "label": "1",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-63",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "63",
+   "text": "Is potable water used for grounds cleaning?",
+   "format": "Radio",
+   "documentation": false,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-64",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "64",
+   "text": "Do you measure the reduction in energy, water, and waste that result from capital investments in these areas?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-65",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "65",
+   "text": "Other than Green Key, does your building hold a third-party environmental certification such as LEED, BREEAM (UK), BOMA (Canada) or Green Globe?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes (please specify in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-66",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "66",
+   "text": "Is there a policy or guidance regarding the use and purchase of sustainably appropriate practices and selection of green materials (re-used, recycled, locally-sourced, respectful of natural and cultural heritage or otherwise environmentally-preferred) when undertaking building planning, design, construction and renovations?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-67",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "67",
+   "text": "Has the building been assessed or certified for accessibility?",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes, an assessment has been completed",
+     "mandatory": false
+    },
+    {
+     "label": "Yes, the building is certified to an accessibility standard",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  },
+  {
+   "id": "ENG-68",
+   "kpa": "ENG",
+   "kpaLabel": "Engineering & Maintenance",
+   "n": "68",
+   "text": "Bonus Innovation Point: Have you implemented any innovative practices/technologies/tactics in the area of Engineering & Maintenance that have not been covered in this section? If 'Yes', you are required to describe the activity or the point will be deducted. You may also be contacted and asked to provide documented proof.",
+   "format": "Radio",
+   "documentation": true,
+   "optionalSection": false,
+   "core": false,
+   "options": [
+    {
+     "label": "Yes (please describe the initiative in the notes section provided below)",
+     "mandatory": false
+    },
+    {
+     "label": "No",
+     "mandatory": false
+    }
+   ]
+  }
+ ]
+}
