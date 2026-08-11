@@ -32,7 +32,7 @@ jobs:
         run: |
           mkdir -p _site
           rsync -a --exclude='_site' --exclude='.git' --exclude='.github' \
-            --exclude='CLAUDE.md' --exclude='README.md' --exclude='assets/' \
+            --exclude='CLAUDE.md' --exclude='/README.md' --exclude='/assets/' \
             ./ _site/
 
       - name: Upload artifact
